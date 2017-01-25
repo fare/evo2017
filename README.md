@@ -1,16 +1,16 @@
-
-========================================================
+From Software Creationism to Software Evolutionism
+==================================================
 
 This is my proposal for a presentation at
-[Salon des Refusés 2017](https://refuses.github.io/),
-subtitled "Dialectics for new computer science".
+[Salon des Refusés 2017](https://refuses.github.io/)
+(who subtitle their conference "Dialectics for new computer science").
 
 I gave previous versions of this talk
 at [ENS in 2005](http://fare.livejournal.com/95576.html),
 at [MSLUG in 2009](https://webmail.iro.umontreal.ca/pipermail/mslug/2009-January/000348.html) and
 at [LispNYC in 2014](https://www.meetup.com/LispNYC/events/171997342/);
 proposals to give other versions of this talk got rejected
-at Onward! 2009 and Onward! 2014.
+by Onward! 2009 and Onward! 2014.
 
 
 Viewing the article
