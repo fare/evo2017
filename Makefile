@@ -10,6 +10,7 @@ all: evo2017.PDF # asdf asdf3-2014.PDF # html # slideshow # PDF
 html: ${ae}.html
 pdf: ${ae}.pdf
 PDF: pdf ${ae}.PDF
+wc: ${ae}.wc
 
 install: evo2017.html evo2017.pdf
 	rsync -av --delete $^ *.js *.css ~/files/evo2017/
@@ -19,7 +20,7 @@ install: evo2017.html evo2017.pdf
 	w3m -T text/html $<
 
 %.wc: %.html
-	donuts.pl unhtml < $< | wc
+	perl $$(which donuts.pl) unhtml < $< | wc
 
 %.PDF: %.pdf
 	evince -f -i $${p:-1} $<

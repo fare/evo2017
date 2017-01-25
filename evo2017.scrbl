@@ -70,7 +70,7 @@ And the most powerful stories @emph{cosmogonies} and @emph{theodicies}:
 a @bydef{cosmogony} tells the origin of the existence of the Universe,
 and the role of God (or Gods) in this origin;
 a @bydef{theodicy} is a trial of those Gods,
-to explain the existence of Evil.
+to explain the existence of Evil. @; @~cite[Leibnitz-1710]
 
 This essay explores the most powerful stories about Software,
 @emph{logogonies} and @emph{anthropodicies}:
@@ -151,7 +151,7 @@ How does software come into existence?
 If you ask a layman or a newbie,
 his explanation might be as follows:
 
-@story{First the machine was uninitialized, blank;
+@story{At first the machine was uninitialized and blank;
 and Man said: ``Let Software be such'' --- and so Software was.}
 
 This simplest of stories is @emph{Software Creationism}:
@@ -173,14 +173,15 @@ it must stand alone and neither rely on any code by anyone else
 nor contribute to such.
 
 No programming tools are necessary in this paradigm;
-just a switchboard to insert the program into the machine.
-Who needs tools when you're a perfect God?
-You transmit your perfect ideas to the machine directly in its memory
-in binary (or base ten, if that's your kind of machine).
+just pen and paper to write the perfect program,
+and a switchboard to insert the program into the machine.
+A perfect Programmer-God does not need tools:
+He transmits His perfect ideas to the machine directly in its memory
+in binary (or base ten, etc.).
 Programming the machine is best done directly in the machine's language,
 for optimum representation of the God's perfect idea.
 If anyone ever uses more than that,
-it is as a tribute to the dominance of other paradigms.
+it is as a tribute to the dominance of other logogonies.
 
 @subsection{The Simplest Anthropodicy}
 
@@ -192,7 +193,7 @@ bugs, tyops, mismanipulations, cosmic rays, malfunctions, errors,
 even outright mistakes.
 
 If the Programmer-God is perfect (at least once trained)
---- then whence do Bugs come from?
+--- then whence do Bugs come?
 
 Sophisticated philosophers will claim that
 while a perfect Programmer has a perfect program in mind,
@@ -213,25 +214,25 @@ are symptoms of the presence of an Evil force.
 
 To fight the Devil,
 the Programmer-God invents tools:
-punched cards or display consoles are used
-that can be monitored by the programmer God as well as written.
+blinkenlights and punched cards (and adhesive tape) are used
+so the Programmer-God may monitor as well as write the code.
 Thus programs can be double checked, fixed, retried, stored,
-despite any failures introduced by the devil.
+despite any failures introduced by the Devil.
 Programs must be read as well as written, decoded as well as coded,
 and thus are born programming languages ---
 starting with Assembly,
-to recompute addresses and jump offsets when code is modified.
+to recompute label addresses and jump offsets when code is modified.
 Software development practices are developed,
 to be followed religiously.
 
-From a better (or less bad) paradigm for programming,
-we thus get better (or less bad) tools
-that allow us to improve software engineering
-and cope with the difficulties of the endeavour.
+From a better (or less bad) theory of programming,
+we thus get better (or less bad) tools ---
+these tools improve programming
+by coping with its identified imperfections.
 This will continue to be true as we improve
 our software engineering paradigms.
 
-Interestingly, anytime we find a new and hopefully better such paradigm,
+Interestingly, anytime we find a new and hopefully better programming paradigm,
 we will always be able consider a variant of it
 where some dark forces conspire to undo or corrupt
 what the creative forces strive to achieve.
@@ -240,91 +241,129 @@ for software engineering paradigms, the @emph{devil mixin}
 --- our first storytelling meta-tool.
 
 
-@subsection{Intelligent Design}
+@subsection{Layered Creation}
 
-Even with the Devil variant,
-the pure Creationist approach to programming soon proves insufficient
-to explain how Software comes into existence,
-and why programming is such a difficult activity.
-As projects grow bigger,
-it becomes obvious that a whole software system
-cannot be completed in one go.
-The sheer volume of it makes it impractical.
-But it is possible to create the software in many steps,
-starting from foundations and building layers upon layers,
+While naive software creationism can adequately explain small programs,
+the theory quickly reaches its limits:
+large working programs just do not spring all armed from the head of Man.
+In a more refined logogony,
+Man still has an essentially perfect idea of the Program,
+but imperfections of the Machine require creation
+in multiple, neatly organized @emph{layers}:
+
+@story{On the first day, Man separated requirements from bugs.
+On the second day, Man divided the program into routines...
+@; On the third day, Man wrote the program's kernel.
+@; On the fourth day, Man coded the application.
+@; On the fifth day, Man completed the front-end.
+@; On the sixth day, Man gave the application to the customer.
+On the seventh day, Man rested as the demo ran flawlessly.}
+
+This logogony leads to new conceptual tools:
+top-down design, software architecture in nice layers,
+flow-charts, the waterfall process.
+With it come divide-and-conquer algorithms.
+In terms of languages, it layers a FORmula TRANslator on top of Assembly.
+
+
+@subsection{Iterated Creation}
+
+Now, as an anthropodicy, the @emph{devil mixin} applies to
+this story of Layered Creation of Software:
+at each of the steps, the Devil may cause mistakes.
+This leads to a slightly modified approach to layereed creation:
+iterating the waterfall process,
+until the code is stable enough,
+then start a new layer of work.
+
+@story{At first, Man wrote a single-file prototype.
+Afterwards, Man worked on an alpha version, then a beta.
+Eventually, Man released v1, v2, v3...
+At last Man produced a stable version...
+though He's working on next patch release.}
+
+Each version is limited in resources and has to make
+tough choices and compromises that leave behind a layer of code @emph{fossils}
+that you discover when you dig in the source code.
+
+This suggests a new logogony, in which
+Man cannot create entire software systems in one act,
+if only because of the sheer amount of work required.
+Instead Man creates software in many steps,
+starting from foundations, building layers upon layers,
 bootstrapping complex structures from simpler ones,
 shaping tools and tool-making infrastructures,
 replacing parts with better ones as the need and opportunity arises,
-building scaffolding that may get destroyed later
+building scaffolding that is destroyed later
 possibly leaving fossils along the way,
-— all according to a carefully designed master plan.
-This programming paradigm has a name:
-@emph{Intelligent Design}.
+--- all according to a carefully designed master plan.
 
-Intelligent Design is a most common paradigm
-amongst software professionals and amateurs,
-whether in the industry or in academia,
-if only because it flatters them.
-Programmers realize that software problems are big, complex beasts,
-but have faith in their godly brainiac powers to tame those beasts
-through the reasonable, intelligent, systematic endeavor
-of well-trained specialists
-creating well-designed programs.
+In other words, @emph{Iterated Creation} is but another name for...
+
+
+@subsection{Intelligent Design}
+
+@emph{Intelligent Design} is a common paradigm among software professionals,
+if only because it flatters them:
+it recognizes enough of the difficulty of programming to set professionals
+above students and amateurs who can only write small programs;
+yet it affirms that professionals tame big complex software issues
+through the systematic endeavor of their Manly brainiac powers.
+They are intelligent and in control.
 
 Within this paradigm are created and elaborated such tools and concepts as
-assemblers, formula translators, source code, operating systems, compilers,
-compiler-compilers, compilation management utilities, etc.
-Top down design, flow charts, modelling tools,
-hierarchically layered systems, the waterfall design process,
-and all kind of neat engineering practices follow from this paradigm.
+operating systems, source code, compilers, compiler-compilers, build systems,
+modelling tools, hierarchically layered systems,
+the iterated waterfall process, release cycles,
+and all kind of neat engineering practices.
 
-Now of course, this paradigm has a devil variant:
-Intelligent Design with a Devil.
-Based on this enhanced paradigm,
-according tools are engineered into existence
-to counter the chaos introduced by the devil:
-editors to modify programs and remove bugs
-(based e.g. on line numbers),
-loggers, tracers and single-steppers to help locate bugs.
-Some small amount of reviewing and testing is added
-at the end of the design process.
+Now of course, this logogony can be enhanced with the devil mixin,
+at which point new tools are engineered to counter
+the chaos introduced by the Devil:
+error messages, loggers, tracers and single-steppers to help locate bugs;
+line-editors to modify the Program;
+acceptance testing to validate It.
 
 
 @subsection{Polytheism}
 
-Another useful mixin for software engineering paradigms is
-@emph{the polytheism mixin}.
-According to this partial theory,
-there isn't one God, with one Master Intent and consequent actions,
-but a lot of gods, each with his own intent and actions.
-It may be that many programmers
-are each a god partaking in some part of designing the Software;
-it may be that some God takes multiple roles to
-address the multi-faceted endeavor of Software design;
-it may be that God's intent changes with time,
-that God is moody and has tantrums.
+Another useful mixin for logogonies is @emph{the polytheism mixin}.
+In this story modifier, there isn't one Man,
+with one Master Intent and consequent actions,
+but a lot of Men (including Women),
+each having Their part in creating the Software,
+each with Their own intent and actions.
 
-God's ways are impenetrable,
-but enhanced theories of what God is lead to the design of new tools.
-To address the multiple programming gods, files are invented;
-as gods get organized in hierarchies, so are files organized in directories.
+In some variants, it may be that these many Men are but
+facets of a same unique Man, who takes multiple roles
+to address the multi-faceted endeavor of Software design;
+or it may be that Man's intent changes with time,
+or that Man is moody and has tantrums.
+
+Man's ways are impenetrable to Software,
+but enhanced theories of what Man is lead to the introduction of new tools.
+To address multiple programming Men, files are invented;
+as Men and Their work get organized in hierarchies,
+so are files hierarchically organized in (sub)directories.
+Source code comments and formal documentation serve to convey
+intent and content between Men.
 Machines are time-shared, operating systems grow to manage multiple users,
 and eventually multiple users at the same time,
 each running multiple processes.
-Communication protocols are developed to exchange data between machines.
-Source code comments and formal documentation serve to convey
-intent and content between programming gods.
+Communication protocols are developed to exchange data
+between machines, between machines and Men, between Men.
 
 The devil mixin can also be combined with the polytheism mixin.
-The devil may have multiple aspects that each have to be addressed separately.
-The apparent or actual polytheism could be explained as
-a one God's multiple personality disorder,
-and the devil as a symptom of His schizophrenia.
-The devil may be a God himself — a malicious programmer.
-Any of these explanations for errors in God's Design
-can lead to new techniques to address the identified sources of error.
-User accounts are protected by passwords;
-files and other resources have usage restrictions, and will be backed up;
+Each Man could have his Devil --- failures in his personality traits.
+The Devil could be chaos in way that Men try to work with each other.
+The Devil may be a Man himself --- a malicious programmer.
+Each of these explanations for errors in Man's Designe
+leads to new techniques to address the identified sources of error.
+Better management techniques are developed;
+programmers review each other's code;
+user accounts are protected by passwords;
+resources have usage restrictions;
+files are backed up;
 redundancy checks are added to communication;
 errata complete documentation,
 and pages are intentionally left blank to prepare for them.
@@ -333,10 +372,10 @@ and pages are intentionally left blank to prepare for them.
 @subsection{Unintelligent Design}
 
 Intelligent Design was once a great progress
-in how to approach software creation,
-but sooner or later, you must realize that
-it doesn't describe reality accurately.
-The design of most software is just really bad.
+in how to approach software creation;
+but sooner or later, programmers realize that
+it doesn't describe reality accurately:
+the design of most software is just really bad.
 Whether you consider the end result of the design or the process to get there,
 you find that it shines neither by its efficiency nor by its elegance.
 Most drafts are no good at all,
