@@ -21,8 +21,6 @@
 }
 
 @conferenceinfo["Salon des Refusés 2017" "2017-04-04, Brussels, Belgium"] @copyrightyear{2017} @; SUBMITTING!
-@; REJECTED! @conferenceinfo["Onward! 2009" "2009-10-25, Orlando, FL."] @copyrightyear{2009}
-@; REJECTED! @conferenceinfo["Onward! 2014" "October 20--24, Portland, OR."] @copyrightyear{2014}
 
 @abstract{
   The lives we live are weaved around the stories we tell.
@@ -66,7 +64,7 @@ they explain the behavior of a protagonist in terms of purposes and challenges,
 with causes and consequences for success and failure.
 Human brains are atuned to stories, whether implicit or explicit,
 and humans are wont to cast themselves into roles defined by stories.
-And the most powerful stories @emph{cosmogonies} and @emph{theodicies}:
+And the most powerful stories are @emph{cosmogonies} and @emph{theodicies}:
 a @bydef{cosmogony} tells the origin of the existence of the Universe,
 and the role of God (or Gods) in this origin;
 a @bydef{theodicy} is a trial of those Gods,
@@ -89,12 +87,12 @@ Indeed this essay makes no claim regarding the origins of Man
 This essay doesn't even make any specific claim as to
 which story best explains the origins of which software
 --- it only tries to make each logogony understood,
-at which point each reader can make up their own mind.
-And if the story arc presented does promote a thesis
-about the origins of software, in the end it is that,
-as far as the emergence of software goes,
-@emph{Man is no God} ---
-which should hardly offend anyone.
+as well as its implications.
+Each reader can take it from there.
+And if the presented story arc does promote
+a thesis about the origins of software,
+in the end it is that, as far as the emergence of software goes,
+@emph{Man is no God} --- which should hardly offend anyone.
 
 Still, this essay does make a claim:
 that @emph{stories matter} ---
@@ -148,11 +146,12 @@ and watch how it has evolved since.
 @subsection{The Simplest Logogony}
 
 How does software come into existence?
+Isn't it obvious?
 If you ask a layman or a newbie,
 his explanation might be as follows:
 
 @story{At first the machine was uninitialized and blank;
-and Man said: ``Let Software be such'' --- and so Software was.}
+then Man said: ``Let Software be such'' --- and so Software was.}
 
 This simplest of stories is @emph{Software Creationism}:
 in casts the programmer as a God Almighty outside and above the machine;
@@ -180,8 +179,9 @@ He transmits His perfect ideas to the machine directly in its memory
 in binary (or base ten, etc.).
 Programming the machine is best done directly in the machine's language,
 for optimum representation of the God's perfect idea.
-If anyone ever uses more than that,
-it is as a tribute to the dominance of other logogonies.
+
+Indeed, that's not how software is written these days ---
+which only shows that this naive logogony has long lost its dominance.
 
 @subsection{The Simplest Anthropodicy}
 
@@ -240,7 +240,6 @@ Thus, the idea of such opposing forces is a universal ``mixin''
 for software engineering paradigms, the @emph{devil mixin}
 --- our first storytelling meta-tool.
 
-
 @subsection{Layered Creation}
 
 While naive software creationism can adequately explain small programs,
@@ -264,7 +263,6 @@ top-down design, software architecture in nice layers,
 flow-charts, the waterfall process.
 With it come divide-and-conquer algorithms.
 In terms of languages, it layers a FORmula TRANslator on top of Assembly.
-
 
 @subsection{Iterated Creation}
 
@@ -300,7 +298,6 @@ possibly leaving fossils along the way,
 
 In other words, @emph{Iterated Creation} is but another name for...
 
-
 @subsection{Intelligent Design}
 
 @emph{Intelligent Design} is a common paradigm among software professionals,
@@ -312,6 +309,7 @@ through the systematic endeavor of their Manly brainiac powers.
 They are intelligent and in control.
 
 Within this paradigm are created and elaborated such tools and concepts as
+algebraic data structures and algorithms,
 operating systems, source code, compilers, compiler-compilers, build systems,
 modelling tools, hierarchically layered systems,
 the iterated waterfall process, release cycles,
@@ -323,7 +321,6 @@ the chaos introduced by the Devil:
 error messages, loggers, tracers and single-steppers to help locate bugs;
 line-editors to modify the Program;
 acceptance testing to validate It.
-
 
 @subsection{Polytheism}
 
@@ -360,7 +357,8 @@ The Devil may be a Man himself --- a malicious programmer.
 Each of these explanations for errors in Man's Designe
 leads to new techniques to address the identified sources of error.
 Better management techniques are developed;
-programmers review each other's code;
+programmers meet at conferences and exchange ideas through journals and forums;
+they review each other's code;
 user accounts are protected by passwords;
 resources have usage restrictions;
 files are backed up;
@@ -368,39 +366,44 @@ redundancy checks are added to communication;
 errata complete documentation,
 and pages are intentionally left blank to prepare for them.
 
+@subsection{Limits to Intelligence}
+
+Intelligent Design was a much improved logogony compared to its predecessors;
+but sooner or later, it too reaches limits
+in its ability to describe reality accurately:
+the design of most software is just really @emph{bad}.
+Whether you consider the end result or the process to get there,
+you find that it shines neither by its efficiency nor by its elegance.
+Not only are most prototypes no good at all,
+most software projects are cancelled before they are shipped,
+or scratched shortly thereafter --- for good reason.
+A lot of work is wasted without any positive result to show for it.
+It isn't rare that good ideas were discarded in favor of bad ideas.
+Even when things work, it is often for the wrong reasons;
+and pieces of code that survive are used in ways they were not intended.
+
+The issue isn't that errors creep in
+that corrupt the implementation of a perfect idea;
+the issue is that the idea was far from perfect to begin with.
+As far as creator gods go, Programmers are only so bright.
+Men have ``bounded rationality''.
+In plain words, we are plain stupid.
+And so, the next stepping stone on the way
+towards better logogonies is:
+@hyperlink["http://www.theshrubbery.com/udn/"]{Unintelligent design}.
 
 @subsection{Unintelligent Design}
 
-Intelligent Design was once a great progress
-in how to approach software creation;
-but sooner or later, programmers realize that
-it doesn't describe reality accurately:
-the design of most software is just really bad.
-Whether you consider the end result of the design or the process to get there,
-you find that it shines neither by its efficiency nor by its elegance.
-Most drafts are no good at all,
-and a lot of the production is rightfully scratched,
-with a lot of work wasted without any positive result to show for it.
-The elective releases often are hardly better,
-and it isn't rare that good ideas were discarded in favor of bad ideas.
-The issue isn't that errors creep in
-that corrupt the implementation of a perfect understanding;
-the issue is that the understanding was far from perfect to begin with.
-We must recognize that as far as gods go,
-software programmers are not very bright.
-Let's face it, the programmer God is just plain stupid.
-And so, the next stepping stone on the way
-towards better programming paradigms is:
-@hyperlink["http://www.theshrubbery.com/udn/"]{Unintelligent design}.
-
-God may have an intent, but he's a blind idiot who doesn't know
-exactly what it is he wants or how to achieve it.
+The Programmer-God may have an intent, but
+He's a blind idiot who doesn't quite know
+what it is he wants or how to achieve it.
 He not only makes gross mistakes,
-he writes plainly erroneous code that can't possibly work.
-Tools to help him design programs will thus include
-helpful messages from his compilers
-for error diagnostic and recovery:
-their role is not to tell an intelligent programmer
+he goes on wild goose chases that lead nowhere,
+and sets impossible goal while ignoring obvious truths.
+
+Tools to help Him design programs will thus include
+helpful messages from his compilers for error diagnostic and recovery.
+Their role is not to tell an intelligent programmer
 ``the devil crept in while you weren't looking,
 just have a look here, you can obviously see him and chase him'',
 it is to tell the unintelligent programmer
@@ -410,21 +413,23 @@ Syntax checking, type checking and various kinds of advanced semantic checking
 are invented to catch the more or less obvious errors
 and converge more quickly towards what the programmer would mean
 if only he were capable of forming coherent intent.
-Interactive help, manuals and hints constantly remind the programmer God
-of the things about which he should know better.
-Integrated development environments help God play with the code
+
+Interactive help, manuals and hints constantly remind Man
+of things that He should know better.
+Integrated development environments help Man play with the code
 and get faster answers as to whether or not his ideas make sense.
-All the software interfaces are made idiot-proof
-by making languages more abstract and completing them with ample
-compile-time and run-time checking.
+Software interfaces are made idiot-proof
+by making languages more abstract and completing them with
+ample compile-time and run-time checking.
 Tools do most of the work and clever interfaces try to present things
-so that complexity is managed away from the stupid user,
-and all decisions may be done based on a shallow limited view of the world,
-the only kind that fits the programmer God's tiny brain.
+so that complexity is managed away from the stupid user.
+Good design ensures all choices that Man makes
+can be taken based on a shallow limited view of the world,
+the only kind that fits the programmer Man's tiny brain.
 There is no shortage of imaginable tools and prosthetic devices
-to help the programmer God cope with his mental disabilities;
+to help Man cope with his mental disabilities;
 and these tools are themselves limited
-mainly by the inability of their own godly program designers.
+mainly by the inability of their own Manly programmers.
 
 When a devil adds machine malfunction to operator dysfunction,
 testing becomes something to take seriously and systematically.
@@ -437,29 +442,64 @@ are attemptedly defined and enforced.
 Because the programmer gods cannot be trusted to remember all
 the issues with the software, some software must be used to
 systematically track those bugs and issues.
-When some of the programming gods are malicious,
+When some of the programming Men are malicious,
 you're glad they are idiots, too,
 and you bury them under the weight and complexity of security features
 that will catch each of the more obvious malicious types of behavior.
 
+@subsection{Progress through Humility}
+
+One trend can already be observed in all these stories:
+they each chip away at the supposed greatest of Man,
+identify more of His imperfections;
+yet, acknowledging these imperfections is precisely what enables
+the invention of tools to cope with these imperfections,
+which themselves enable the creation of greater software.
+Greater humility is what makes progress possible.
+
+Also note that the tools tell the story,
+even when we don't make the story explicit.
+Why do you use a typechecker? Because you make type errors.
+What if you don't use a typechecker.
+You still make type errors and pay the price.
+Whatever stories you tell others to impress them,
+or tell yourself to boost your own ego,
+the tools you choose to use (or fail to use)
+tell a more honest story about yourself.
+
+But how far does Man have to humiliate Himself
+before a truthful story emerges about the origins of Software?
+If Software isn't the @emph{Triumph of the Will} of Man,
+then what really is the driving Force behind Software?
+Before we can give answers to these question,
+we have to change our point of view...
 
 @subsection{Lamarckism}
 
-Whether software is designed by intelligent or stupid gods,
-or something else altogether,
-we importantly may understand that software changes
-to adapt to new circumstances;
-and so we come to focus on the nature of this change.
+Whether software is designed by intelligent or stupid Men,
+or by something else altogether,
+we may importantly understand that software @emph{changes}
+to adapt to new circumstances:
+new goals, new programmers, new customers, new insight, new technologies, etc.
+And so we come to focus on the nature of this change through time,
+rather than just on its product at a given moment.
 Such is @emph{Software Lamarckism}.
 
 Filesystems may remember many versions of the files they hold,
 each with a different version number.
 Software releases are numbered too.
-Because many gods may be working at a time,
-a piece of software may exist along many different development branches.
+Because many Men may be working at a time,
+a piece of software may exist along many different versions;
+moreover, these versions are not in a strict linear order,
+but may come in branches that sometimes diverge from each other,
+and sometimes merge back together.
+"Ports" from one language to another, and
+"inspiration" from one project to the next,
+are other ways that information is copied from one Software project to another.
+
 To understand the differences introduced,
-whether they were intelligent, stupid or malicious and what to do of them,
-tools computing differences between files are created.
+whether they are intelligent, stupid or malicious and what to do of them,
+new tools compute differences between files.
 To merge the intelligent changes and the fixes to the stupid and malicious ones
 along the many different branches, tools are created
 to apply computed differences to branched files.
@@ -468,47 +508,51 @@ and continuous backup remembers all previous versions of tracked files.
 
 Lamarckism is not a complete theory of why and how change happens,
 but it introduces a useful focus on change.
-It is thus the starting point for more elaborate theories that
+It is a Great Mixin that can be applied to all the previous logogonies,
+a starting point for more elaborate theories that
 will explain the development of software in the terms of
 this incremental process of change.
-
 
 @section{Software Evolutionism}
 
 @subsection{Supernatural Selection}
 
-Though Unintelligent Design helps further the field of software engineering,
-one may realize that while small parts of software are understood,
-software at large is not understood, much less designed.
-Lamarckism, by shifting the spotlight to the change process,
+Unintelligent Design,
+while acknowledging Man's stupidity at writing software in the small,
+still posits His grand design for building software in the large.
+How is this position defensible?
+Lamarckism, by shifting the spotlight towards the change process,
 leads to asking why and how programmers lacking complete understanding
 choose to keep or change some or some other parts of the software.
-The immediate answer is that as god programmers write,
+The immediate answer is that as Men write,
 they stumble upon good or bad features
 that they winnow by propagating the good
 and by eliminating the bad.
 The software writing process is thus some kind of artificial selection,
-under the careful, intelligent guidance of the programmer God.
-The programmer God impresses upon the process a definite direction,
+under the careful, intelligent guidance of the Programmer-God.
+God impresses upon the process a definite direction,
 Progress, and otherwise lets software evolve organically in this divine order.
+Judging software being much easier than writing software, it is defensible
+for Man to be good at the former even though he's bad at the latter.
 This software paradigm is @emph{Supernatural Selection}.
 
 Under this paradigm, new tools are selected into prominence.
-Prototyping tools help the programmer God flesh out as many ideas as possible
+Prototyping tools help Man flesh out as many ideas as possible
 as quickly as possible, so he may select the correct ones.
-Formal specifications help define what software should be doing,
-without worry about how it will be doing it.
+Formal specifications help define @emph{what} software should be doing,
+without worry about @emph{how} it will be doing it.
 Heuristic search algorithms use intelligently designed strategies
 to systematically explore spaces of potential solutions
 too large to be explored by the programmer themselves.
-The combination of these two approaches leads to declarative programming,
-where the programmer God focuses on the intent,
-and delegates the implementation to the machine.
-From one phase to the next, programs are transformed
+The combination of these two approaches leads to @emph{declarative programming},
+whereby Man focuses on intent,
+and delegates implementation to the machine.
+
+From one evaluation phase to the next, programs are transformed
 through systematic metaprograms.
 To prevent the devil from corrupting software,
 formal proofs are developed that perfectly exclude undesired behavior.
-To coordinate multiple programming gods,
+To coordinate multiple Programmer-Gods,
 software modules separate interface from implementation,
 allowing for experimentation and adaptation separately in each part;
 rational developer communities are created,
@@ -521,7 +565,7 @@ an intelligent and purposeful programmer god,
 culminating with expert systems using explicit knowledge representation
 in an attempt to solve complex real-world problems.
 
-
+@XXX{
 @subsection{Teleological Evolution}
 
 The paradigm of Supernatural Selection obviously suffers
@@ -1600,3 +1644,4 @@ What are @emph{you} doing? Are you interested in joining forces?
 
 
 @; http://arxiv.org/abs/1510.04440 "Modelling the Evolution of Programming Languages" Silvia Crafa (Submitted on 15 Oct 2015)
+}
