@@ -7,7 +7,7 @@
           scribble/manual-struct scribble/decode-struct
           scribble/html-properties scribble/tag
           (only-in scribble/core style)
-          "utils.rkt")
+          "utils.rkt" "bibliography.scrbl")
 
 @authorinfo["François-René Rideau" "TUNES Project" "fare@tunes.org"]
 @; http://fare.tunes.org/
@@ -357,8 +357,7 @@ The Devil may be a Man himself --- a malicious programmer.
 Each of these explanations for errors in Man's Designe
 leads to new techniques to address the identified sources of error.
 Better management techniques are developed;
-programmers meet at conferences and exchange ideas through journals and forums;
-they review each other's code;
+programmers review each other's code;
 user accounts are protected by passwords;
 resources have usage restrictions;
 files are backed up;
@@ -521,6 +520,7 @@ Unintelligent Design,
 while acknowledging Man's stupidity at writing software in the small,
 still posits His grand design for building software in the large.
 How is this position defensible?
+
 Lamarckism, by shifting the spotlight towards the change process,
 leads to asking why and how programmers lacking complete understanding
 choose to keep or change some or some other parts of the software.
@@ -552,32 +552,31 @@ From one evaluation phase to the next, programs are transformed
 through systematic metaprograms.
 To prevent the devil from corrupting software,
 formal proofs are developed that perfectly exclude undesired behavior.
-To coordinate multiple Programmer-Gods,
+To coordinate multiple Men,
 software modules separate interface from implementation,
 allowing for experimentation and adaptation separately in each part;
 rational developer communities are created,
 conferences are given, journals are published.
 
-This whole approach has also been called the First Wave of Cybernetics,
-combining an understanding of the natural dynamics of software
+This whole approach has also been called the @emph{First Wave of Cybernetics}.
+It combines an understanding of the natural dynamics of software
 with a faith in the ultimate power of
-an intelligent and purposeful programmer god,
+an intelligent and purposeful Programmer-God,
 culminating with expert systems using explicit knowledge representation
 in an attempt to solve complex real-world problems.
 
-@XXX{
 @subsection{Teleological Evolution}
 
 The paradigm of Supernatural Selection obviously suffers
 from the same shortcoming as did the theory of Intelligent Design before it,
-in that it supposes that the programmer God (or at least some of them)
-are supremely intelligent.
-The only reason this shortcoming was not immediately grasped
-is because these successive paradigms were adopted
-without ever being articulated as clear theories.
-Now, an immediate improvement over the previous paradigm
-is to stop believing that the programmer Gods are intelligent.
-Gods may guide the evolution of software,
+in that it supposes that the Programmer-God (or at least some of them)
+are supremely intelligent as regards judging the quality of software change.
+This shortcoming is obvious once the logogonies
+are articulated as clear theories,
+rather than adopted without a thought by mimetism or what seems to work.
+An immediate improvement over that logogony is thus
+to stop believing in Men as supremely intelligent Programmer-Gods.
+Men may guide the evolution of software,
 but their contribution to the process
 is hardly an overall intelligent coherent purpose;
 rather it is through a number of interventions based
@@ -587,28 +586,28 @@ Such is the theory of @emph{Teleological Evolution}.
 
 With the transition from intelligent guidance to unintelligent guidance,
 we are lead to the appearance of new tools,
-that roughly correspond to the Second Wave of Cybernetics.
-Genetic Algorithms, connectionist neural networks,
+that roughly correspond to the @emph{Second Wave of Cybernetics}.
+Genetic Algorithms, supervised learning through neural networks,
 probabilistically approximately correct learning methods
 allow to mine information from large databases
 without any explicitly designed representation of knowledge.
-Weakly structured computations allow to manipulate data
+Weakly structured computations enable data manipulation
 despite limited understanding.
 At a smaller scale, programmers are satisfied with randomized algorithms
 that have good enough performance in practice
 despite having dreadful worst case guarantees.
-To protect from the devil, checksums and probabilistic proofs
+To protect from the Devil, checksums and probabilistic proofs
 can be more useful than unattainable formal proofs.
-To synchronize multiple gods, user communities come to prominence,
-as users, though the least proficient, are those who possess
-the best distributed knowledge of what makes the software useful or not.
+To synchronize multiple Programmer-Gods, user communities come to prominence:
+users, though less proficient than developers, are those who possess
+the most direct distributed knowledge of what makes the software useful or not.
 
 The paradigm of Teleological Evolution loosens
-the strictures of Design or Supernatural Selection,
+the strictures of Design or of Supernatural Selection,
 and opens the space for practical software solutions
-to problems beyond the full grasp of the programmers.
+to problems beyond the full grasp of programmers.
 While it reckons the importance of reasonable endeavor,
-this importance is de-emphasized;
+this importance is also de-emphasized;
 indeed, even reason can be seen as but a fast-track
 internal process of random production and selection
 inside the programmer's mind, as guided by his godly intuition.
@@ -616,31 +615,32 @@ In the end, Teleological Evolution embraces
 an unfathomable mystical intuition
 as the ultimate divine source of creation.
 
-
 @subsection{Natural Selection}
 
 As far as paradigms for understanding software development go,
-the notion of evolution under godly guidance
-was an improvement over that of direct design by purposeful gods,
-which was itself an improvement over the notion of immediate creation.
+the notion of evolution under manly guidance
+was an improvement over that of direct design by purposeful Men,
+which was itself an improvement over the notion of direct creation.
 But in each case, this was only pushing back one level
 the assumption of a driving intent external to the world.
 Real evolutionary theory does away with this assumption.
 Survival of the fittest does not suppose
 an external criterion of fitness to which living creatures are submitted;
-rather, survival itself is the only criterion,
+rather, survival itself is the only criterion for survival,
 tautological and merciless.
 Survival is its own purpose:
-those programs that survive, survive;
-those that don't, don't.
+those programs that survive---survive;
+those that don't---don't.
 Changes that improve the odds
 that their host software should survive and propagate,
-thus statistically tend to propagate themselves
+thereby statistically tend to propagate themselves
 and colonize their respective niches.
 Changes that decrease the odds
 that their host software should survive and propagate,
-thus statistically fail to propagate themselves
+thereby statistically fail to propagate themselves
 and eventually disappear.
+Changes that best fit a niche and not others---survive in that niche
+and not others.
 
 The cumulative result of this natural selection is an evolutionary process
 that favors bundles of traits that tend towards their own reproduction.
@@ -648,11 +648,11 @@ This freewheeling evolution necessitates no godly intervention,
 neither by an intelligent conscience, nor by madmen.
 More remarkably, programmers are no gods above it,
 and their actions are no such interventions.
-They are but machines like others, bundles of self-reproducing traits
+Programmers are but machines like others, bundles of self-reproducing traits
 competing to exploit the resources of the universe.
 As compared to other machines in this programming universe,
 certainly programmers are unique and different
-— we're all unique and different;
+--- everyone's all unique and different;
 that doesn't exempt them from the laws of natural selection.
 Programmers are machines trying to survive in a wild
 machine-eats-machine world;
@@ -661,22 +661,27 @@ by gaining an edge in the race
 for ever more efficient acquisition and use of reproductive resources.
 If God exists, then ever since He created the world,
 He has just been relaxing, sitting back and enjoying the show.
-Evolution is not guided by God, it is God's Spectator Sport.
+Evolution is not actively guided by God, it is God's Spectator Sport.
 Such is the paradigm of @emph{Natural Selection}.
 
-With this new understanding of the world of software development
-emerge new tools to improve our development processes.
-We think in terms of self-sustaining systems,
-evolving and competing based on their ability to survive and spread.
+@subsection{Software Darwinism}
+
+Natural Selection, unlike Supernatural Selection or Teleological Evolution,
+is what (software) darwinists mean when they speak of (software) ``evolution''.
+
+With this perspective on software development,
+we gain new mental models for development processes.
+We think of software in terms of self-sustaining systems,
+that evolve and compete based on their ability to survive and spread.
 We understand that the hosts and actors of this memetic competition
-are humans as well as machines, or even more so.
+are men as well as machines, or even more so.
 We may then notice that systems are never born big,
 and that the only big systems that work are those
 that were born small and evolved and grew in a way that
-they were kept working at every step.
-We explain the spread of ideas in terms
-of generations of humans and machines passing on
-their forking and mingling traditions.
+they were kept working at every step @~cite[Systemantics].
+We relate the spread of ideas to the demographics
+generations of humans and machines passing on
+their forking and mingling traditions---relating memetics to genetics.
 We understand that pieces of hardware, software and wetware
 survive as part of ecosystems,
 with cycles of development and use by various humans,
@@ -684,19 +689,26 @@ where economic and legal aspects have their importance
 as well as technical and managerial aspects.
 We realize that these systems compete on a market
 ultimately driven by economic costs,
-of which technical aspects are but a small part,
-sometimes not decisive,
+of which technical aspects are but one part,
+often not the most decisive one,
 though they are what the technicians obsess about.
 
-Because the forces opposing creation are no devil but malicious humans indeed,
-we use of computer cryptography
-and cultivate networks of human trust
-to achieve security.
-A Third Wave of Cybernetics attempts to re-create artificial life
+Models such as above mostly serve to filter out doomed business models
+and self-defeating attitudes
+when the model can explain how they go against reality.
+But they also lead to a few positive tools that actually help.
+A @emph{Third Wave of Cybernetics} attempts to re-create artificial life
 and life-like phenomena through the emergence of behavior
 from many software agents.
+Unsupervised learning and tournament competitions yield results
+unreachable by supervised learning and explicit fitness functions.
+Understanding that the forces opposing creation act not through supernatural
+means but through the action of malicious or misguided humans,
+we achieve security through a mix of computer cryptography,
+growing networks of human trust, retaliating against bad behavior,
+and educating new people.
 
-Natural Selection provides a big picture
+Software Darwinism provides a big picture
 that puts haughty programmers down from their godly pedestal
 and back into the muddy real world.
 It doesn't offer direct solutions to design problems so much
@@ -706,30 +718,32 @@ No one is a god, above the others,
 to predict what will work and dictate what to do;
 our experts' dreams are often but vain obsessions,
 whereas some rare amateurs' successful experiment may start a revolution.
-Life is the ultimate judge
-— accept no substitute, and respect its sanction.
+Life is the ultimate judge---accept no substitute, and respect its sanction.
 
-
-@subsection{Inside Evolution}
+@subsection{Evolution is an Inside Job}
 
 Natural Selection may appear to look down on the world
 as a soulless marketplace.
-It will only appear soulless if you imagine yourself in the seat
+But it will only appear soulless if you imagine yourself in the seat
 of that laissez-faire God above the world.
-But face it, you're no god, you're not outside the world and above it.
-There may be a god, who may or may not be intervening in this World,
-but you have to come to the realization that He's definitely not @emph{you}.
+Face it: you're no god, you're not outside the world and above it.
+There @emph{might} be a God (or Gods),
+who might or might not be intervening in this World---but
+you have to come to the realization that
+@emph{you} are definitely neither Him nor any of Them.
 You're one of us earthworms, trying to make the best out of what you have
 (or not trying, and thus probably failing
 and promptly disappearing into irrelevance).
-Evolution is not something for you to enjoy watching,
+Evolution is not something for you to enjoy watching from above,
 it is something you are part of, willy nilly.
 You can't just let nature decide,
 you're part of the nature that will decide.
-Whichever genes and memes you carry may or may not survive
-— it is largely up through your actions that they will succeed or fail.
-You're in the experimental set of changes that may or may not work out well,
-or you're in the control set of the obsolete that will surely be replaced.
+Whichever genes and memes you carry may or may not survive--—it is largely
+up through your actions that they will succeed or fail.
+You're either in the experimental set
+of changes that may or may not work out well,
+or you're in the control set
+of the obsolete that will surely be replaced.
 Such is the view from @emph{Inside Evolution}.
 
 The tools that matter are those that are available to you.
@@ -750,7 +764,6 @@ Not just software libraries, but software communities,
 software market niches, software business contracts.
 Of course, you always need some kind of exclusive resource
 to ensure a revenue stream;
-free software or not,
 your combined proficiency, trustworthiness and time
 are ultimately the only such resource you have,
 and ample enough to live well if you can market it,
@@ -760,29 +773,19 @@ intellectual frauds will try to have you adopt their bad ideas,
 and other scammers will try to divert your resources in their favor;
 you must learn to avoid them.
 
+Evolution as an Inside Job restores the soul
+in the marketplace for software: yours.
+You're the entrepreneur of your own life.
+
+@subsection{Social Evolution}
+
 As you fully grasp the fact that all actors are individuals,
 not just yourself,
 you start taking into account incentive structures.
 Incentive structures will put you and your associates in a position
 to productively cooperate at your full potential,
-or to work at a fraction of it;
+or to work at only a fraction of it;
 so carefully watch both your legal and business arrangements.
-You may see that proprietary software destroys incentive
-from anyone who doesn't fully trust the software owner,
-and that trust can last but until the eventual catastrophe
-inevitable in any centralized management;
-the technically best proprietary software will still die eventually,
-as its unique management starts accumulating mistakes,
-goes under, or changes priorities, for reasons unrelated
-to the technical superiority of the software or lack thereof.
-Any proprietary software has a suspended death sentence.
-On the contrary, you may see that free software
-creates an insurance against disagreement with associates,
-and ensures perennity of software investment.
-Free software is virtually immortal,
-it will survive and continue to evolve long after
-any particular strain of momentarily superior proprietary software
-has come and gone.
 
 With a systematic view of incentives,
 you stress the importance of contracts and accountability
@@ -798,47 +801,68 @@ in the good ones rather than the bad ones.
 You may celebrate startup companies
 as light innovation structures with highly motivated personnel.
 
-The Inside view to Evolution restores the soul
-in the market place for software.
-This soul is yours.
-You're the entrepreneur of your own life.
+You may also consider long-term effects of licensing issues
+on development ecosystems.
+For instance, proprietary software has a definite short-term advantage
+over free software
+in capitalization, focus, coherence ---
+and in the ability to use the latter when the latter can't use the former.
+But in the long run, proprietary software destroys incentive from anyone
+who doesn't fully trust the software owner;
+and that trust can last but until the eventual catastrophe
+inevitable in any centralized management.
+All proprietary software has a suspended death sentence.
+Only free software can be immortal and has a chance
+at maintaining long-term ecosystems that keep evolving
+long after any particular strain of momentarily superior proprietary software
+has come and gone.
 
+Thinking in terms of social evolution,
+of arms races from positive feedback,
+equilibria from negative feedback,
+invariants from limited resources,
+variants from energy sources and entropy sinks,
+can make you see what is invisible to those ignorant of the perspective.
 
 @section{Stories Programmers Tell}
 
-@subsection{Paradigms Evolve!}
+@subsection{Stories Evolve!}
 
-From naive Instant Creationism to the Inside view of Natural Selection,
-we can observe a notional evolution of the underlying stories
-that people tell of themselves as they program,
-and a corresponding change of the methods they use.
-And this change can indeed be seen as improvement
-or at least elaboration,
-with the less useful stories being replaced by better ones.
-Simpler stories don't just die out, though;
-they find their niches
+From naive Instant Creationism to the darwinist view from Inside Evolution,
+we can observe a @emph{story arc} in these logogonies themselves:
+Man is taken down from his pedestal as an Über-God above the machine,
+until he becomes an underdog competing
+as part of processes that vastly surpass him.
+
+The @emph{evolution} of these stories
+can indeed be seen as an elaboration,
+whereby each step replaces an overly simplistic story
+with a more accurate one.
+This @emph{teleological evolution} towards more darwinistic stories
+being more accurate could be a divine truth about of our universe;
+or it could be merely the claim of the author of this essay,
+the validity if which could be less than universal;
+and yet, even without being universal, its relevance to your own life
+could make it adaptive for you (for ``us''?) to take it seriously.
+
+In any case, we stepped back from what the stories say
+to the stories themselves.
+We went @emph{meta} on the stories.
+And our story is about storytelling.
+
+@XXX{
+@subsection{Ech Story at its Place}
+
+When better, more elaborate stories are invented,
+simpler stories don't just die out:
+they each find their niche of validity,
 where the cost of improving on them
 is higher that the return on the improvement.
-
-Most of the time, these stories are implicit,
-never told in so many words, neither admitted nor denied.
-They are official lies that go unsaid but are well understood,
-that nobody dares to question yet that nobody feels comfortable with.
-Once transformed from implicit stories to explicit theories,
-they become tools by which to explicitly think about what we're doing.
-Then we can find that some theories are lacking,
-identify where and how they are lacking,
-and propose better theories.
-They become scientific tools, or at least tools of knowledge,
-that liberate us instead of imprison us.
-
-When a theory is found to be overly simple,
-it doesn't mean that said theory has no validity whatsoever,
-or that the tools it inspired are entirely without utility.
 Indeed, simpler theories are usually simpler to put in practice,
-the simpler tools they suggest are cheaper to build and use.
+the tools they suggest are cheaper to build and use.
 Their validity may be limited, but when valid they are,
 they are the right tool for the job.
+
 By all means, if you're building a program so simple that
 you can understand it all and instantly create it from scratch, do it!
 Don't follow a 12-step plan to software development
@@ -854,9 +878,31 @@ Yet with proper biases in generation and cleverness in detection,
 this resort might eventually also prove the most powerful,
 if the most expensive.
 
+Importantly
+, the tools we develop also make it possible
+
 And so we find that these stories about the evolution of programs
 are themselves paradigms that evolve and may yet evolve some more.
 
+@subsection{Paradigms as Tools}
+
+Most of the time, these stories remain implicit,
+never told in so many words---precisely
+because uttering them would make the ``plot holes'' in the stories
+uncomfortably obvious.
+Instead, they remain official lies that go unsaid but are well internalized
+as the only possible justification for the tools used and processes followed.
+They are @emph{Games People Play} @~cite[Games-People-Play].
+However, once the stories are made explicit and their plot holes are uncovered,
+the same discomfort can become the motivation to stop playing a bad game,
+and find a better one.
+Making these stories explicit is a tool for group therapy
+of dysfunctional software development teams,
+of dysfunctional software ecosystems.
+Implicit stories imprison us, explicit stories liberate us.
+
+
+Reduce a problem that would have been a monumental endeavor for the unaided human to one that is a trivial matter of instant creation using new tools.
 
 @subsection{Paradigms Matter}
 
@@ -1644,4 +1690,20 @@ What are @emph{you} doing? Are you interested in joining forces?
 
 
 @; http://arxiv.org/abs/1510.04440 "Modelling the Evolution of Programming Languages" Silvia Crafa (Submitted on 15 Oct 2015)
+
+Though unlikely that your software activities follow the "perfect" logogony,
+that doesn't mean that whatever dysfunction introduced there is
+the most tragic dysfunction in your life.
+There are many, many stories about Software and about Man,
+that define your current behavior, the Role you Play.
+And the one that you get most wrong,
+that is causing you the greatest waste in your life,
+that you could benefit most from fixing...
+is for you to discover, examine, and fix.
+Logogonies were just the most spectacular way of illustrating the notion
+of stories and games we play.
+So, make the stories of your life explicit, and rewrite them, better!
+
 }
+
+@(generate-bib)
