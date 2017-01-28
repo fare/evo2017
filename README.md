@@ -3,7 +3,8 @@ From Software Creationism to Software Evolutionism
 
 This is my proposal for a presentation at
 [Salon des Refusés 2017](https://refuses.github.io/)
-(who subtitle their conference "Dialectics for new computer science").
+(a.k.a. SDR2017, with the conference subtitle
+"Dialectics for new computer science").
 
 I gave previous versions of this talk
 at [ENS in 2005](http://fare.livejournal.com/95576.html),
@@ -16,9 +17,12 @@ by Onward! 2009 and Onward! 2014.
 Viewing the article
 -------------------
 
-Once I reduce the paper to fit in the alloted 9000 words limit,
-I will upload a PDF version of the article.
+I am not yet done cutting down a previous writeup
+to fit the 9000 words limit alloted by SDR, but you can already proofread
+the parts rewritten so far.
+Here are an HTML and a PDF version of this essay:
 
+  * http://fare.tunes.org/files/evolutionism/evo2017.html
   * http://fare.tunes.org/files/evolutionism/evo2017.pdf
 
 

@@ -13,8 +13,8 @@ PDF: pdf ${ae}.PDF
 wc: ${ae}.wc
 
 install: evo2017.html evo2017.pdf
-	rsync -av --delete $^ *.js *.css ~/files/evo2017/
-	rsync -av --delete ~/files/evo2017/ bespin:files/evo2017/
+	rsync -av --delete $^ *.js *.css ~/files/evolutionism/
+	rsync -av --delete ~/files/evolutionism/ bespin:files/evolutionism/
 
 %.W: %.html
 	w3m -T text/html $<
