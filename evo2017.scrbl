@@ -854,7 +854,46 @@ could make it adaptive for you (for ``us''?) to take it seriously.
 In any case, we just stepped back from what the stories say
 to talking about the stories themselves.
 We @emph{went meta} on the stories.
-The topic of our story is now storytelling.
+Whereupon the topic of our story is storytelling.
+
+@subsection{Stories Matter}
+
+Now, the tools previously described already exist;
+they have been created, engineered or selected,
+or they have emerged,
+without any of these logogonies being explicitly stated,
+much less used as conscious guides.
+Do these stories have any relevance,
+or are they but nice-sounding post-hoc rationalizations?
+Even if relevant, don't they come too late to help invent those tools?
+
+Daniel Dennett wrote: ``There is no such thing as philosophy-free science;
+there is only science whose philosophical baggage
+is taken on board without examination.''
+In software programming as in any other human endeavor,
+not stating your assumptions
+won't save you from the consequences
+of following them when they are erroneous---not anymore than
+putting your head in the sand will save you from predators you can't see.
+The stories you follow
+embody the assumptions you implicitly make, often without a conscious decision;
+they determine the horizon of phenomena you can comprehend;
+and each step in their evolution describes relevant phenomena
+to which you were previously blind, of which you were a helpless victim,
+that you can now see and master.
+
+Diagnosing how a ``series of unfortunate events'' is no accident
+but the necessary consequence of some previously invisible phenomenon
+is a necessary first step to properly addressing it.
+``Failing to plan is planning to fail.''
+If you assume an inadequately simplistic paradigm,
+you will keep attacking your problem with inadequate tools
+because you cannot even see how better tools apply to your case.
+You will waste significant human resources
+at unrewarding repetitive tasks at which humans are unreliable
+compared to the cheaper machines that you could have used;
+despite these sacrifices, or rather because of them, you will keep failing,
+until competition people using better paradigms drives you out.
 
 @subsection{Stories as Tools}
 
@@ -862,7 +901,7 @@ The stories we live by are seldom told in so many words---precisely
 because uttering them would make the ``plot holes'' in the stories
 uncomfortably obvious:
 in addition to the pain of living a bad story
-then comes the shame of being the story's sucker.
+ then comes the shame of being the story's sucker.
 So these stories remain implicit,
 official lies that go unsaid but are well internalized
 as the logical justification for the processes followed and the tools used.
@@ -909,64 +948,29 @@ Interestingly, as stories inspire tools that increase man's reach,
 the domain of validity of older stories is expanded rather than narrowed.
 Modern languages and IDEs indeed make it possible to instantly create
 or systematically engineer programs that would previously have been
-monumental endeavors.
+monumental endeavors---if they could have been imagined at all.
 
 The question therefore isn't to find a one-size-fits-all story,
 but to identify the story that best fits the situation at hand,
 which will make you most effective if you play the games it suggests.
 
+@subsection{Beyond Logogonies}
+
+Though your software activities are unlikely to follow the "perfect" logogony,
+that doesn't mean that this imperfection introduces
+is what brings the most tragic dysfunction in your life.
+There are many, many stories about Software and about Man,
+that define your current behavior, the Role you Play.
+And the one that you get most wrong,
+that is causing you the greatest pain or waste in your life,
+that you could benefit most from fixing...
+is for you to discover, examine, and fix.
+Logogonies were just the most spectacular way of illustrating the notion
+of stories and games we play.
+So, make the stories of your life explicit, and rewrite them, better!
+
 @bold{TO BE CONTINUED...}
 @XXX{
-
-@subsection{Paradigms Matter}
-
-This evolution of programming paradigms is a nice story,
-but what is its relevance for software developers?
-After all, the tools described above already exist;
-they have been created, they have been engineered,
-they have been selected or they have emerged,
-without any of these paradigms being explicitly stated,
-much less used as a conscious guide.
-Do these paradigms correspond to anything real,
-or are they but a nice-sounding rationalization?
-What do we gain if anything by spelling them out?
-
-Well, as Daniel Dennett wrote,
-``There is no such thing as philosophy-free science;
-there is only science whose philosophical baggage
-is taken on board without examination.''
-This is true of computer science and computer engineering
-as of any other human endeavour.
-Just because you don't state your assumptions
-doesn't save you from the consequences
-of following them when they are erroneous,
-not anymore than putting your head in the sand
-would save you from predators you can't see.
-These paradigms do describe assumptions implicitly followed
-without a conscious decision,
-and each step in their evolution describes relevant phenomena
-to which earlier paradigms are blind.
-And those who make unconscious decisions
-are but surer victims of the problems they are blind to.
-
-Realizing that some phenomena are not accidents happening during development,
-but constitute an essential part of it
-is necessary to properly address them.
-``Failing to plan is planning to fail.''
-If you assume, say, the Intelligent Design paradigm,
-even though you may benefit from tools developed with latter paradigms,
-you will systematically waste resources
-trying to intelligently design
-what is beyond the reach of any intelligent design,
-or aiming at the only solutions reachable by it
-despite their being inferior to competition.
-However, if you go beyond intelligent design,
-you will come to better solutions naturally by letting them grow.
-By embracing a more primitive paradigm,
-you will introduce a lot of unnecessary nasty bugs by not taking seriously
-the systematic processes of weeding them out early with dedicated tools;
-you will systematically fail to consider cheap solutions that are at hand,
-but that do not lend themselves to a perfect algorithmic description, etc.
 
 Any discrepancy between reality and what you perceive is a blind spot;
 the less you see, the more mistakes you make.
@@ -1704,19 +1708,6 @@ What are @emph{you} doing? Are you interested in joining forces?
 
 
 @; http://arxiv.org/abs/1510.04440 "Modelling the Evolution of Programming Languages" Silvia Crafa (Submitted on 15 Oct 2015)
-
-Though unlikely that your software activities follow the "perfect" logogony,
-that doesn't mean that whatever dysfunction introduced there is
-the most tragic dysfunction in your life.
-There are many, many stories about Software and about Man,
-that define your current behavior, the Role you Play.
-And the one that you get most wrong,
-that is causing you the greatest waste in your life,
-that you could benefit most from fixing...
-is for you to discover, examine, and fix.
-Logogonies were just the most spectacular way of illustrating the notion
-of stories and games we play.
-So, make the stories of your life explicit, and rewrite them, better!
 
 }
 
