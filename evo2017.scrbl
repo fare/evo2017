@@ -27,10 +27,10 @@
   This is true of programmers as of all humans.
   And the greatest of all stories are @emph{origin stories}.
   I will examine the origin stories of software,
-  from simples tale of software creation
-  to more advanced theories of software evolution.
-  And I will explain how these stories suggest the tools we use
-  and the technological realities we bring about.
+  from simple tales of software creation
+  to elaborate theories of software evolution.
+  And I will relate these stories to the tools they explain
+  and the technological realities we bring about by following them.
   I will conclude by reflecting on storytelling,
   on the progression of the above stories, and on what lies beyond.
   Stories are fun! And they subtly inform us. Let me tell you a good story...
@@ -300,7 +300,8 @@ In other words, @emph{Iterated Creation} is but another name for...
 
 @subsection{Intelligent Design}
 
-@emph{Intelligent Design} is a common paradigm among software professionals,
+@emph{Intelligent Design} is a common paradigm among software engineers,
+indeed implied by this very title,
 if only because it flatters them:
 it recognizes enough of the difficulty of programming to set professionals
 above students and amateurs who can only write small programs;
@@ -654,7 +655,7 @@ As compared to other machines in this programming universe,
 certainly programmers are unique and different
 --- everyone's all unique and different;
 that doesn't exempt them from the laws of natural selection.
-Programmers are machines trying to survive in a wild
+Programmers are machines among others, trying to survive in a wild
 machine-eats-machine world;
 their actions are their attempts to survive and reproduce
 by gaining an edge in the race
@@ -832,77 +833,90 @@ From naive Instant Creationism to the darwinist view from Inside Evolution,
 we can observe a @emph{story arc} in these logogonies themselves:
 Man is taken down from his pedestal as an Über-God above the machine,
 until he becomes an underdog competing
-as part of processes that vastly surpass him.
+as part of processes that vastly surpass him,
+at the same level as machines.
+Yet, each time Man's image is humbled, Man himself is elevated,
+as tools are then invented to address his identified weaknesses
+--- until he is one with the machines that augment him ever closer to godhood.
 
 The @emph{evolution} of these stories
 can indeed be seen as an elaboration,
-whereby each step replaces an overly simplistic story
-with a more accurate one.
+whereby each step replaces an overly simplistic story that @emph{assumes} power
+with a more accurate one that @emph{creates} power.
 This @emph{teleological evolution} towards more darwinistic stories
-being more accurate could be a divine truth about of our universe;
-or it could be merely the claim of the author of this essay,
-the validity if which could be less than universal;
-and yet, even without being universal, its relevance to your own life
+being more accurate and more empowering
+could be a divine truth about our universe;
+or it could be merely a claim by the author of this essay,
+the validity of which could be less than universal;
+yet, even without being universal, its relevance to your own life
 could make it adaptive for you (for ``us''?) to take it seriously.
 
-In any case, we stepped back from what the stories say
-to the stories themselves.
-We went @emph{meta} on the stories.
-And our story is about storytelling.
+In any case, we just stepped back from what the stories say
+to talking about the stories themselves.
+We @emph{went meta} on the stories.
+The topic of our story is now storytelling.
 
-@XXX{
-@subsection{Ech Story at its Place}
+@subsection{Stories as Tools}
 
-When better, more elaborate stories are invented,
-simpler stories don't just die out:
-they each find their niche of validity,
-where the cost of improving on them
-is higher that the return on the improvement.
-Indeed, simpler theories are usually simpler to put in practice,
-the tools they suggest are cheaper to build and use.
-Their validity may be limited, but when valid they are,
-they are the right tool for the job.
+The stories we live by are seldom told in so many words---precisely
+because uttering them would make the ``plot holes'' in the stories
+uncomfortably obvious:
+in addition to the pain of living a bad story
+then comes the shame of being the story's sucker.
+So these stories remain implicit,
+official lies that go unsaid but are well internalized
+as the logical justification for the processes followed and the tools used.
+They are @emph{Games People Play} @~cite[Games-People-Play].
 
-By all means, if you're building a program so simple that
-you can understand it all and instantly create it from scratch, do it!
+However, once you realize the stories are themselves subject to change,
+then making them explicit, uncovering their plot holes
+and feeling their discomfort can become the means, opportunity and motivation
+for quitting (or wholly avoiding) a bad game and finding a better one.
+@emph{Going meta} about stories is then a tool for the group therapy
+of dysfunctional software development teams,
+of dysfunctional software ecosystems---as well as
+for other dysfunctional human behaviors.
+Leaving stories implicit imprisons us;
+making stories explicit liberates us.
+
+@subsection{The Proper Role of Stories}
+
+A story may good by itself---if it brings original insight;
+it may be bad by itself---if it is logically inconsistent;
+but most stories are only good or bad in context---as
+useful or misleading ways to describe a situation.
+
+If your problem is so simple that
+you grok it all and can write down a software solution in one breath,
+by all means, do it!
 Don't follow a 12-step plan to software development
 to be rinsed and lathered along 30 iterations.
-If on the other hand
-you can't fully understand the program you're building,
-do try to design it,
-and if even the design is too hard,
-escalate the methods you use until you hopefully get it done.
-Generating random programs until one is found to solve your problem
-should be a last resort.
-Yet with proper biases in generation and cleverness in detection,
-this resort might eventually also prove the most powerful,
-if the most expensive.
+If on the other hand you can't fully understand the problem you're tackling,
+if designing a solution is too hard for structured methods,
+then keep escalating the methods you use until you hopefully solve your problem.
+Generating random programs until a solution is found should be a last resort.
+Yet given proper biases in generation, cleverness in detection, and raw power,
+this resort might be made affordable,
+and find solutions where other methods fail.
 
-Importantly
-, the tools we develop also make it possible
+Thus, when more elaborate stories are invented,
+older, simpler stories don't die out:
+they each find their niche of validity,
+where the cost of improving on them
+is higher that the return on the improvement;
+meanwhile, new stories cover new ground more so than claim known territory.
+Interestingly, as stories inspire tools that increase man's reach,
+the domain of validity of older stories is expanded rather than narrowed.
+Modern languages and IDEs indeed make it possible to instantly create
+or systematically engineer programs that would previously have been
+monumental endeavors.
 
-And so we find that these stories about the evolution of programs
-are themselves paradigms that evolve and may yet evolve some more.
+The question therefore isn't to find a one-size-fits-all story,
+but to identify the story that best fits the situation at hand,
+which will make you most effective if you play the games it suggests.
 
-@subsection{Paradigms as Tools}
-
-Most of the time, these stories remain implicit,
-never told in so many words---precisely
-because uttering them would make the ``plot holes'' in the stories
-uncomfortably obvious.
-Instead, they remain official lies that go unsaid but are well internalized
-as the only possible justification for the tools used and processes followed.
-They are @emph{Games People Play} @~cite[Games-People-Play].
-However, once the stories are made explicit and their plot holes are uncovered,
-the same discomfort can become the motivation to stop playing a bad game,
-and find a better one.
-Making these stories explicit is a tool for group therapy
-of dysfunctional software development teams,
-of dysfunctional software ecosystems.
-Implicit stories imprison us, explicit stories liberate us.
-
-
-Reduce a problem that would have been a monumental endeavor for the unaided human to one that is a trivial matter of instant creation using new tools.
+@bold{TO BE CONTINUED...}
+@XXX{
 
 @subsection{Paradigms Matter}
 
