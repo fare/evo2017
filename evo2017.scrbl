@@ -111,10 +111,10 @@ First, creationist stories; then, evolutionist stories.
 To each story, we associate tools that humans use while writing software,
 that each fit into the narrative yet not the previous ones.
 
-In a last part of this essay, I step back from the stories themselves,
+In a second part of this essay, I step back from the stories themselves,
 and discuss stories as a tool:
-what we can tell about them, how they shape our behavior, and
-what to expect from them in the future.
+what we can tell about them, how they shape our behavior.
+I then conclude with some remarks about what to expect from future stories.
 
 @longonly{@subsection{History}}
 
@@ -159,8 +159,8 @@ the software is His creation, His proxy, embodied in the machine.
 
 This belief not only comes naturally to non-programmers
 when confronted with the apparition of software;
-it was also historically the first software paradigm assumed;
-and it is still the tacit paradigm underlying
+it was also historically the first logogony assumed;
+and it is still the tacit logogony underlying
 most undergraduate computer science education:
 in exercises and tests, assignments and projects,
 students are expected to produce
@@ -171,7 +171,7 @@ Their code is evaluated once by the teacher;
 it must stand alone and neither rely on any code by anyone else
 nor contribute to such.
 
-No programming tools are necessary in this paradigm;
+No programming tools are necessary in this logogony;
 just pen and paper to write the perfect program,
 and a switchboard to insert the program into the machine.
 A perfect Programmer-God does not need tools:
@@ -230,14 +230,14 @@ we thus get better (or less bad) tools ---
 these tools improve programming
 by coping with its identified imperfections.
 This will continue to be true as we improve
-our software engineering paradigms.
+our logogonies.
 
-Interestingly, anytime we find a new and hopefully better programming paradigm,
+Interestingly, anytime we find a new and hopefully better logogony,
 we will always be able consider a variant of it
 where some dark forces conspire to undo or corrupt
 what the creative forces strive to achieve.
 Thus, the idea of such opposing forces is a universal ``mixin''
-for software engineering paradigms, the @emph{devil mixin}
+for logogonies, the @emph{devil mixin}
 --- our first storytelling meta-tool.
 
 @subsection{Layered Creation}
@@ -300,16 +300,15 @@ In other words, @emph{Iterated Creation} is but another name for...
 
 @subsection{Intelligent Design}
 
-@emph{Intelligent Design} is a common paradigm among software engineers,
-indeed implied by this very title,
-if only because it flatters them:
+@emph{Intelligent Design} is the most common logogony among software engineers,
+indeed implied by their very claimed title---because it flatters them:
 it recognizes enough of the difficulty of programming to set professionals
 above students and amateurs who can only write small programs;
 yet it affirms that professionals tame big complex software issues
 through the systematic endeavor of their Manly brainiac powers.
 They are intelligent and in control.
 
-Within this paradigm are created and elaborated such tools and concepts as
+With this logogony are elaborated such tools and concepts as
 algebraic data structures and algorithms,
 operating systems, source code, compilers, compiler-compilers, build systems,
 modelling tools, hierarchically layered systems,
@@ -421,8 +420,10 @@ and get faster answers as to whether or not his ideas make sense.
 Software interfaces are made idiot-proof
 by making languages more abstract and completing them with
 ample compile-time and run-time checking.
-Tools do most of the work and clever interfaces try to present things
-so that complexity is managed away from the stupid user.
+Work is divided in ``modules'',
+so that what limited intelligence there is can be focused in module implementation,
+whereas using modules through their public interfaces requires much less intelligence;
+complexity is thus managed away from stupid users.
 Good design ensures all choices that Man makes
 can be taken based on a shallow limited view of the world,
 the only kind that fits the programmer Man's tiny brain.
@@ -535,9 +536,9 @@ God impresses upon the process a definite direction,
 Progress, and otherwise lets software evolve organically in this divine order.
 Judging software being much easier than writing software, it is defensible
 for Man to be good at the former even though he's bad at the latter.
-This software paradigm is @emph{Supernatural Selection}.
+This logogony is @emph{Supernatural Selection}.
 
-Under this paradigm, new tools are selected into prominence.
+With this logogony, new tools are selected into prominence.
 Prototyping tools help Man flesh out as many ideas as possible
 as quickly as possible, so he may select the correct ones.
 Formal specifications help define @emph{what} software should be doing,
@@ -568,7 +569,7 @@ in an attempt to solve complex real-world problems.
 
 @subsection{Teleological Evolution}
 
-The paradigm of Supernatural Selection obviously suffers
+The logogony of Supernatural Selection obviously suffers
 from the same shortcoming as did the theory of Intelligent Design before it,
 in that it supposes that the Programmer-God (or at least some of them)
 are supremely intelligent as regards judging the quality of software change.
@@ -603,7 +604,7 @@ To synchronize multiple Programmer-Gods, user communities come to prominence:
 users, though less proficient than developers, are those who possess
 the most direct distributed knowledge of what makes the software useful or not.
 
-The paradigm of Teleological Evolution loosens
+The logogony of Teleological Evolution loosens
 the strictures of Design or of Supernatural Selection,
 and opens the space for practical software solutions
 to problems beyond the full grasp of programmers.
@@ -618,7 +619,7 @@ as the ultimate divine source of creation.
 
 @subsection{Natural Selection}
 
-As far as paradigms for understanding software development go,
+As far as logogonies go,
 the notion of evolution under manly guidance
 was an improvement over that of direct design by purposeful Men,
 which was itself an improvement over the notion of direct creation.
@@ -663,7 +664,7 @@ for ever more efficient acquisition and use of reproductive resources.
 If God exists, then ever since He created the world,
 He has just been relaxing, sitting back and enjoying the show.
 Evolution is not actively guided by God, it is God's Spectator Sport.
-Such is the paradigm of @emph{Natural Selection}.
+Such is the logogony of @emph{Natural Selection}.
 
 @subsection{Software Darwinism}
 
@@ -875,16 +876,17 @@ not stating your assumptions
 won't save you from the consequences
 of following them when they are erroneous---not anymore than
 putting your head in the sand will save you from predators you can't see.
-The stories you follow
+The overarching stories you follow---or paradigms, as they are commonly called---
 embody the assumptions you implicitly make, often without a conscious decision;
-they determine the horizon of phenomena you can comprehend;
-and each step in their evolution describes relevant phenomena
+they determine the horizon of phenomena you can comprehend.
+What exists beyond these stories, you cannot see.
+And each step in the evolution of these stories adds relevant phenomena
 to which you were previously blind, of which you were a helpless victim,
 that you can now see and master.
 
 Diagnosing how a ``series of unfortunate events'' is no accident
 but the necessary consequence of some previously invisible phenomenon
-is a necessary first step to properly addressing it.
+is a necessary first step to properly addressing an issue.
 ``Failing to plan is planning to fail.''
 If you assume an inadequately simplistic paradigm,
 you will keep attacking your problem with inadequate tools
@@ -901,7 +903,7 @@ The stories we live by are seldom told in so many words---precisely
 because uttering them would make the ``plot holes'' in the stories
 uncomfortably obvious:
 in addition to the pain of living a bad story
- then comes the shame of being the story's sucker.
+then comes the shame of being the story's sucker.
 So these stories remain implicit,
 official lies that go unsaid but are well internalized
 as the logical justification for the processes followed and the tools used.
@@ -954,83 +956,62 @@ The question therefore isn't to find a one-size-fits-all story,
 but to identify the story that best fits the situation at hand,
 which will make you most effective if you play the games it suggests.
 
-@subsection{Beyond Logogonies}
+@subsection{Beyond These Logogonies}
 
 Though your software activities are unlikely to follow the "perfect" logogony,
 that doesn't mean that this imperfection introduces
 is what brings the most tragic dysfunction in your life.
 There are many, many stories about Software and about Man,
 that define your current behavior, the Role you Play.
-And the one that you get most wrong,
+If you work in a team (and you do), stories also define the way
+this team is organized, sets its goals and its means,
+the way each of its members sets their goals and means,
+the way people interact with each others inside and outside the team, etc.
+And the one story that you get most wrong,
 that is causing you the greatest pain or waste in your life,
 that you could benefit most from fixing...
-is for you to discover, examine, and fix.
+is for you to discover, examine, and replace.
 Logogonies were just the most spectacular way of illustrating the notion
 of stories and games we play.
 So, make the stories of your life explicit, and rewrite them, better!
 
-@bold{TO BE CONTINUED...}
-@XXX{
-
-Any discrepancy between reality and what you perceive is a blind spot;
-the less you see, the more mistakes you make.
-Any discrepancy between your practice and your theory
-is a blind spot that you can readily fix
-by applying the theory and enhancing the practice.
-Any discrepancy between your theory and the best available theory
-is a blind spot that you can fix by learning more theory.
-Any discrepancy between the best available theory and reality
-is a blind spot you cannot do much about.
-Those who stay behind in terms of software development paradigm
-will be incapable of doing what will appear to them as
-clever lateral thinking, strokes of genius or unreachable fantasy,
-whereas those who master further paradigms
-will casually achieve feats previously deemed impossible
-by a simple systematic application of their more evolved paradigms.
-In the end, if you don't stay on top
-of these paradigms and their application,
-you'll be outcompeted by those who do.
-
-Now to those who understand the relevance
-of these programming paradigms,
-the important open question is:
-what is the next paradigm, if any?
-Is the above view from @secref{Inside_Evolution}
+One the other hand, if progress in how software is developped can be related
+to stories about software development, a question naturally arises:
+what are the next logogonies?
+Is the above ``view from Inside Evolution''
 the be-all, end-all of programming paradigms?
-Is the refinement of existing tools our only hope?
-Or will some further paradigm catch on?
-Can one identify and adopt this paradigm early on,
+Is there nothing left but incremental refinement of existing concepts and tools?
+Or are there paradigms as radically advanced compared to software darwinism
+as software darwinism is compared its predecessors?
+Can these one identify and adopt this paradigm early on,
 and thus get an edge over competition?
 
-What then, if anything, is next on our road
-as far ahead of the current paradigm as that paradigm was of previous ones?
+@section{Stories Future}
 
+@subsection{Present Optimism}
 
-@subsection{Paradigmatic Optimism}
-
-The simplest view about future paradigms is that
+The simplest view about logogonies is that
 there will be no new ones, at least none that works.
-Our understanding of software development is mature
-and as good as it can get as far as the big picture goes,
-though there may always be a myriad of minor details to get right.
+Our understanding of software development is mature;
+though there may be myriads of minor details to get right,
+the big picture is complete.
 This is @emph{Present Optimism}:
-the theory that we've already reached the limit of knowledge.
+the ``end of history'' was reached,
+from there it's smooth sailing and/or decline.
 
-Of course, assuming there is finite understandable information
-about the big picture of software development,
-there will be diminishing returns in understanding the field
-and eventually not enough new relevant information
-to possibly constitute a new paradigm change for the better.
-And so we can be confident that
-this theory of Present Optimism will @emph{some day} be true
-about software development paradigms as about many things.
+Of course, assuming the big picture about software
+will ever contain but finite understandable information,
+there @emph{will} be a point when there is no room left
+for further paradigm improvements.
+Therefore Present Optimism will @emph{some day} be true,
+about logogonies as about many things.
 
 On the other hand, considering how new the field of software development is
 and how fast it has changed in just the last few years,
 it seems premature to declare that we fully understand
-how software is developed and will not find new deep insights.
-If indeed our understanding of software development
-was to remain unchanged for, say, five to ten years,
+how software is developed and will never find new deep insights.
+If our understanding of software development were to remain stagnant
+for, say, five to ten years,
 and all developers were to settle towards a finite set
 of well understood unchanging methods, then
 we could assert with much more confidence
@@ -1038,25 +1019,28 @@ that indeed we have reached the acme of software development.
 But this hasn't nearly happened yet,
 and the case for Present Optimism is rather slim.
 
-Another kind of optimism and a common idea about
-the future of software paradigms has always been
-that computers will somehow become more intelligent than men
-and will take over the menial task of programming,
-like djinns to whom you will give orders and who will grant your wishes.
+@subsection{The Singularity}
+
+A different kind of optimism, and a common idea regarding
+future logogonies has always been that
+computers will somehow surpass men in intelligence
+and take over the menial task of programming:
+they will be genies, who will grant your every software wishes,
+the details of which they can anticipate better than you can specify.
 This is Extreme Future Optimism, or @emph{Millenarism}:
 the theory that soon(er or later),
-we'll reach a Millenium (or Singularity)
-where all our worries will be taken away.
+we'll reach a Millenium, or @emph{Singularity},
+when all our worries are taken away.
 
-However, this Optimism is based
-on a misunderstanding of what progress is about,
-a misunderstanding that is best dispelled by confronting it with
-the equal and opposite misunderstanding:
+However, this Millenarism is based on a misunderstanding, that is best dispelled
+by contrasting its equal and opposite misunderstanding:
 the claim that such a future is bleak
 because it means machines will be taking all our jobs away.
 Hopefully the errors will cancel each other in a collision
 from which light will emerge.
 
+@section[#:style (make-style #f '(unnumbered))]{TO BE CONTINUED...}
+@XXX{
 
 @subsection{No Escape From Evolution}
 
