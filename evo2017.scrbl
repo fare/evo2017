@@ -1027,73 +1027,77 @@ computers will somehow surpass men in intelligence
 and take over the menial task of programming:
 they will be genies, who will grant your every software wishes,
 the details of which they can anticipate better than you can specify.
-This is Extreme Future Optimism, or @emph{Millenarism}:
+This is Extreme Future Optimism, or @emph{Singulatarianism}:
 the theory that soon(er or later),
-we'll reach a Millenium, or @emph{Singularity},
+we'll reach a Technological Millenium, or @emph{Singularity},
 when all our worries are taken away.
 
-However, this Millenarism is based on a misunderstanding, that is best dispelled
-by contrasting its equal and opposite misunderstanding:
-the claim that such a future is bleak
-because it means machines will be taking all our jobs away.
+However, this Millenarianism is based on a misunderstanding,
+that is best dispelled by contrasting its equal and opposite misunderstanding:
+Millenarian Luddism, the claim that technology unless stopped
+will bring a bleak future where humans are reduced to misery
+as machines take all their jobs away.
 Hopefully the errors will cancel each other in a collision
 from which light will emerge.
 
-@section[#:style (make-style #f '(unnumbered))]{TO BE CONTINUED...}
-@XXX{
+@subsection{No Escape from Evolution}
 
-@subsection{No Escape From Evolution}
-
-Yes, computers in many ways have replaced humans for many tasks,
-and will replace humans for more tasks to come.
-The building of tools that replace human work in software development
-is what our whole story of paradigms was about.
-But competition by computerized tools does not destroy human jobs,
+Computers have replaced humans in many ways,
+and will keep replacing them in more ways.
+Computerized tools that replace humans while programming
+are the heart of our story so far.
+But automation does not destroy human jobs,
 it only displaces jobs towards new areas not covered by tools.
-Useful tools provide some of the same positive satisfactions as before
-and some more, while reducing the negative efforts;
-the goal of some previous jobs is fulfilled without the associated costs.
-The human resources previously used toward that goal
+Successful tools provide more satisfactions than before while reducing efforts.
+@hyperlink["http://www.econlib.org/library/Bastiat/basHar11.html"
+        ]{More for less---progress.}
+The human resources previously expended toward those satisfactions
 are not destroyed but liberated;
-they are made available to be redirected to new useful endeavours
-that couldn't previously be afforded.
-
+they are made available, to be redirected to new useful endeavours
+that couldn't previously be afforded,
+together with the increased riches with which to pay them.
+@;(That's the insight behind the badly formulated Say's Law.)
+@; Better expounded by Bastiat in "Producer and Consumer", Harmonies ch. 11
 Furthermore,
-as long as humans and machines do not have
-the same relative performance in all activities,
-the law of comparative advantages ensures that
-the tasks relatively better done by meatware than by software
-will remain a domain of human activity.
-And even if machines do it better than humans,
-nobody prevents you from programming without machine help,
-or from choosing to sponsor a human rather than a machine
-for the programming tasks you need,
-and there will probably always be a cottage industry of ``brain made'' software
-just like there now is a cottage industry of ``hand made'' pottery.
-But just like automation in other industries made these industries
-vastly more productive and mankind at large vastly more wealthy,
-so will automation in programming make software a more profitable industry
-and better serve mankind.
-Through all the software development tools already mentioned
-in the article above, automation already serves mankind,
-to a tremendous degree.
-Continuing to program in Java will no more provide job security
-than did programming in C++, COBOL, Assembly or Binary before;
-it will only guarantee a lot of wasted effort and ultimately failure
-in the Luddite refusal of automation.
+the @hyperlink["http://www.econlib.org/library/Topics/Details/comparativeadvantage.html"
+	]{@emph{law of comparative advantage}} ensures that
+@emph{even at absolute disadvantage}, the tasks relatively better done
+by meatware than by software will remain a domain of human activity.
 
-What machines can neither possibly create nor destroy is
-on the one hand the desire for ever more, ever higher satisfactions,
-and on the other hand,
-the ability to adapt and work towards these satisfaction:
-in other words, human life, its drive and its spirit.
-Machines displace this life for the better,
-turning feats into chores, chores into menial tasks,
+Of course, nobody prevents from using or sponsoring
+a human-intensive way of programming
+that declares some forms of machine assitance taboo.
+There will always be a cottage industry of ``brain made'' software
+just like there now is a cottage industry of ``hand made'' pottery
+(still using tools, just neolithic ones).
+But just like automation in other industries increased productivity
+and made mankind vastly wealthier,
+so will automation in programming increase productivity
+and serve mankind---it already does
+through all the software development tools previously mentioned.
+And with further progress, programming in today's hip tools
+will become as obsolete as programming in COBOL or Assembly has become:
+a waste effort, and guaranteed ultimate failure,
+for the Luddites who refuse automation.
+
+The laws of Economics still apply. Which includes the laws of Evolution.
+Indeed, the ideas behind Evolution were discovered
+by historians as applied to economics,
+long before they were ever applied to biology.
+
+@subsection{Sentient Agency}
+
+Machines can turn feats into chores, chores into menial tasks,
 menial tasks into assumable commodities.
-As our past worries are taken away,
-we worry about new often loftier tasks that become our focus.
-Ultimately, the only persons who create human jobs are human parents,
-and only illness and death destroy jobs;
+But they can neither create nor destroy
+the desire for ever more, ever greater satisfactions,
+the ability to adapt and work towards these satisfaction,
+and the individual accountability for the results:
+in other words, human drive, spirit and agency.
+As our past worries are cared for,
+we focus on loftier worries.
+Ultimately, only human parents create human jobs,
+and only illness and death destroy them;
 the rest is a matter of organizing existing human resources.
 The fear of Artificial Intelligence and claim of Human Supremacy
 is a lifeformist stance wrapped in the usual protectionist fallacies,
@@ -1101,18 +1105,19 @@ and its narrowmindedness should inspire
 the same spite as racist or nationalist arguments before it.
 
 Conversely, blind faith in Artificial Intelligence
-is yet another mystic superstition by millenarists
-dreaming of being saved from having to live their own lives.
+is but another millenarian superstition---people dreaming of
+being saved from having to live their own lives.
 This blind faith is a cop out, in that it wishes away
-the very nature of life and its intrinsic difficulties.
-Indeed, even if ``intelligent'' machines are to replace humans
+the very nature of life and its intrinsic challenges.
+Even if ``intelligent'' machines were to replace humans
 in the activity of programming,
-said machines won't be able cop out
-of a programming paradigm that way;
-the buck will have to stop somewhere,
-and the issues will have to be addressed.
-Sentient agents, whether electrical or biological,
-are equally constrained by the laws of Human Action:
+said machines won't be able cop out of having a logogony:
+software issues will have to be addressed,
+the buck will have to stop at @emph{someone}.
+And that someone is necessarily a sentient agents,
+whether electronical or biological, equally constrained by the laws of
+@hyperlink["https://mises.org/library/human-action-purposeful-action"
+	]{``Human'' Action}, i.e. purposeful action:
 the competition for scarcity of resources,
 the power of incentives,
 the benefits of cooperation,
@@ -1121,10 +1126,12 @@ the importance of property rights, etc.,
 and ultimately, @emph{evolution},
 will apply to them as to they apply to us.
 
-However brighter than today a future with artificial intelligences might be,
+However brighter or gloomier than today
+a future with artificial intelligences will be,
 bridging the gap between today and that future,
 if possible, won't be achieved by hand-waving.
-It will require a paradigm shift that the cop out precisely prevents from knowing.
+It will require a paradigm shift that the cop out
+precisely aims at blanking out.
 
 The legitimate cop out is not to assume knowledge but to admit ignorance:
 ``my previous investigations didn't lead
@@ -1132,21 +1139,39 @@ to any firm conclusion to this question,
 and I don't have enough combined care for the matter
 and trust in the remaining venues available for investigation
 to afford further investigation.''
-But are we reduced to this ignorance?
-Are there not things we know or can guess about the directions
-that the future may take?
+@; But are we reduced to this ignorance?
+@; Are there not things we know or can guess about the directions
+@; that the future may take?
 
+@section{Open Conclusion}
 
-@subsection{Bootstrapping Intelligence}
+@subsection{Educated Guesses}
 
+The future promises many revolutions in how software will be written:
+between ``artificial intelligence'' and cyber-security arms race,
+mind-defying heuristics and automated formal methods,
+tomorrow's technology is likely to obsolete today's programming practices
+as hopelessly primitive and insecure.
+Can we make more precise predictions?
+``Predictions are hard---especially those that regard the future''. @; XXX author?
 If you could provide an accurate functional description
 of what the future would bring,
 then this future would already be there,
 by the simple execution of this description as a plan.
-Any vision of the future is thus speculative, fallible, blurry and incomplete.
-The tracks I will propose to follow are thus but my personal interpretation;
-but, of course, no more so than the explanations that preceded,
-or than the speculations of anyone else.
+But we can make educated guesses. Here are mine...
+
+@section[#:style (make-style #f '(unnumbered))]{TO BE CONTINUED...}
+@XXX{
+
+(1) More automation.
+(2) Bootstrapping Intelligence, Quantum Leaps to Induction
+(3) Dialogue, not Command
+(3) Better Social Understanding.
+(4)
+
+
+
+@subsection{Bootstrapping Intelligence}
 
 What is clear to me is that currently
 an awful lot of what is done by programmers
