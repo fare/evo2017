@@ -643,6 +643,9 @@ thereby statistically fail to propagate themselves
 and eventually disappear.
 Changes that best fit a niche and not others---survive in that niche
 and not others.
+How software changes help fit a niche decides whether the changes survive and spread,
+not whether Man explicitly and correctly anticipated and intended those changes
+to be successful in particular ways.
 
 The cumulative result of this natural selection is an evolutionary process
 that favors bundles of traits that tend towards their own reproduction.
@@ -660,10 +663,12 @@ Programmers are machines among others, trying to survive in a wild
 machine-eats-machine world;
 their actions are their attempts to survive and reproduce
 by gaining an edge in the race
-for ever more efficient acquisition and use of reproductive resources.
-If God exists, then ever since He created the world,
-He has just been relaxing, sitting back and enjoying the show.
-Evolution is not actively guided by God, it is God's Spectator Sport.
+for ever more efficient acquisition and use of reproductive programming resources.
+Their failure mean their code stops being used and is forgotten.
+If God exists, then he is not Man; and ever since Man created Software,
+God has just been relaxing, sitting back and enjoying the show.
+Software Evolution is not directly controled by Man and not actively guided by God,
+it is God's Spectator Sport, and Man is a competitor among others.
 Such is the logogony of @emph{Natural Selection}.
 
 @subsection{Software Darwinism}
@@ -956,10 +961,56 @@ The question therefore isn't to find a one-size-fits-all story,
 but to identify the story that best fits the situation at hand,
 which will make you most effective if you play the games it suggests.
 
+@subsection{Leveraging Stories}
+
+Programmers could automate away a lot of the issues they face today
+if only they graduated from the paradigm of (Un)Intelligent Design
+to that of Supernatural Selection or better:
+Just giving up on having humans write software directly,
+and instead adopting more declarative and generative programming approaches
+could deal with better results and fewer efforts with
+(de)serialization, persistence, schemas and schema upgrades,
+replication, performance autotuning, representation selection, or
+maintenance coherence between multiple data representations,
+code layers, specifications, documentation and test files,
+etc.
+What more if they adopted the Inside View of Evolution,
+they would have a healthier approach to negotiating
+what the software should or shouldn't be doing in the first place.
+
+As the profession matures, software libraries and programming practices
+will spread that can be anticipated in terms of
+examining which logogony underlies some unsatisfactory practice,
+and imagining how a more elaborate logogony could enhance it.
+
+For instance,
+unintelligent design brings us manual tests;
+lamarckism makes testing incremental;
+supernatural selection inspires generator-driven property checks;
+teleological evolution suggests whitebox fuzz testing;
+natural selection suggests bug bounties;
+and the inside view suggests paying attention to how management
+creates incentives towards better or worse code.
+
+Intelligent design suggests type declarations;
+unintelligent design, type-checkers;
+lamarkism, type-based refactoring and schema versioning;
+supernatural selection, generic types and type inference;
+teleological evolution, automated learning of probabilistic type schemas
+for data extraction or activity monitoring;
+natural selection, learning with competing models and
+automated translation between type hierarchies;
+inside evolution, taking human factors, responsibilities and incentives into account
+in the modular design of class hierarchies and type systems.
+
+The explicit application of logogonies to any particular topic
+immediately suggests a fertile research program to analyze existing practices
+and create new ones based on more elaborate logogonies.
+
 @subsection{Beyond These Logogonies}
 
-Though your software activities are unlikely to follow the "perfect" logogony,
-that doesn't mean that this imperfection introduces
+Your software activities are unlikely to follow the "perfect" logogony;
+but that doesn't mean that this imperfection introduces
 is what brings the most tragic dysfunction in your life.
 There are many, many stories about Software and about Man,
 that define your current behavior, the Role you Play.
@@ -972,8 +1023,11 @@ that is causing you the greatest pain or waste in your life,
 that you could benefit most from fixing...
 is for you to discover, examine, and replace.
 Logogonies were just the most spectacular way of illustrating the notion
-of stories and games we play.
-So, make the stories of your life explicit, and rewrite them, better!
+of stories and games we play;
+they are by no means the only interesting stories,
+or the stories most relevant to whichever important issue you're dealing with at the moment.
+So, make the stories of your life explicit,
+identify those you're living, and rewrite them, better!
 
 One the other hand, if progress in how software is developped can be related
 to stories about software development, a question naturally arises:
@@ -1153,46 +1207,27 @@ mind-defying heuristics and automated formal methods,
 tomorrow's technology is likely to obsolete today's programming practices
 as hopelessly primitive and insecure.
 Can we make more precise predictions?
-``Predictions are hard---especially those that regard the future''. @; XXX author?
+@emph{It is difficult to make predictions, especially about the future}
+(Karl Kristian Steincke).
 If you could provide an accurate functional description
 of what the future would bring,
 then this future would already be there,
 by the simple execution of this description as a plan.
 But we can make educated guesses. Here are mine...
 
+@subsection{Bootstrapping Intelligence}
+
+Activities involving human intelligence have already started being replaced
+by computer automation.
+All of the programming tools we mentionned above
+are indeed forms of this replacement.
+The purpose of computers is to @emph{automate that which can be automated}.
+This applies to all human activities, including ``intellectual'' activities.
+In particular this applies to software development itself.
+
 @section[#:style (make-style #f '(unnumbered))]{TO BE CONTINUED...}
 @XXX{
 
-(1) More automation.
-(2) Bootstrapping Intelligence, Quantum Leaps to Induction
-(3) Dialogue, not Command
-(3) Better Social Understanding.
-(4)
-
-
-
-@subsection{Bootstrapping Intelligence}
-
-What is clear to me is that currently
-an awful lot of what is done by programmers
-can and will be automated away:
-from more or less straightforward performance tweaks
-to translation between various layers of software,
-from maintenance of multiple representations of the system
-to documentation, tutorials and testing,
-from negotiating what the software should be doing
-to ensuring that it does not do something unexpected.
-A lot of the work
-currently done by human intelligence
-will in the future be replaced by computer automation.
-Indeed, all the previously mentioned progress in terms of programming tools
-from all the previously mentioned programming paradigms
-can be seen as such replacement of human intelligence by computer automation.
-And the trend will continue in ways we can't imagine precisely.
-
-The purpose of computers is to @emph{automate that which can be automated}.
-This applies to all human activities.
-In particular this applies to software development itself.
 The self-application of improved automation techniques
 to the development of further automation techniques
 one hope may be self-catalytic:
@@ -1224,7 +1259,6 @@ what matters is that if there is an inflexion point
 where we'll reach quickly diminishing returns on investment in machine intelligence,
 this point seems to be well ahead of us;
 what matters is that we are within the part of the curve that accelerates.
-
 
 @subsection{Quantum Leaps}
 

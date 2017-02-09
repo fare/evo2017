@@ -23,7 +23,8 @@ install: evo2017.html evo2017.pdf
 	perl $$(which donuts.pl) unhtml < $< | wc
 
 %.PDF: %.pdf
-	evince -f -i $${p:-1} $<
+	#evince -f -i $${p:-1} $<
+	xpdf -z page -fullscreen $< $(p)
 
 %.pdf: %.scrbl ${lib}
 	time scribble --dest-name $@ --pdf $<
