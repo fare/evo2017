@@ -23,7 +23,7 @@
 @conferenceinfo["Salon des Refusés 2017" "2017-04-04, Brussels, Belgium"] @copyrightyear{2017} @; SUBMITTING!
 
 @abstract{
-  The lives we live are weaved around the stories we tell.
+  The lives we live are woven around the stories we tell.
   This is true of programmers as of all humans.
   And the greatest of all stories are @emph{origin stories}.
   I will examine the origin stories of software,
@@ -97,7 +97,7 @@ in the end it is that, as far as the emergence of software goes,
 Still, this essay does make a claim:
 that @emph{stories matter} ---
 that you should examine the stories you live by,
-be careful those you choose to accept or to reject,
+be careful which you choose to accept or to reject,
 and constantly refine them. For they will shape you.
 So yes, question my beliefs; and question your own ---
 that's the point, whichever your or my beliefs are.
@@ -185,7 +185,7 @@ which only shows that this naive logogony has long lost its dominance.
 
 @subsection{The Simplest Anthropodicy}
 
-Software creation by a superior God is beautiful story;
+Software creation by a superior God is a beautiful story;
 however, anyone who ever endeavors to program soon realizes
 that programs seldom run perfectly at the first try, or even the second.
 Bad things happen:
@@ -202,7 +202,7 @@ is necessarily limited in form by physical constraints
 --- a mere shadow of its platonic ideal.
 
 But most people readily rush to the simplest explanation: @emph{the Devil}.
-A devil modifies software in a way counters to God's intent.
+A devil modifies software in a way counter to God's intent.
 Whether this Devil is an opposing force outside God,
 a personality defect within God,
 or a necessary artefact of the laws of Nature that God created
@@ -278,7 +278,8 @@ then start a new layer of work.
 Afterwards, Man worked on an alpha version, then a beta.
 Eventually, Man released v1, v2, v3...
 At last Man produced a stable version...
-though He's working on next patch release.}
+although, He keeps issuing patch releases.
+@XXX{(Be worried when He stops)}}
 
 Each version is limited in resources and has to make
 tough choices and compromises that leave behind a layer of code @emph{fossils}
@@ -293,7 +294,7 @@ bootstrapping complex structures from simpler ones,
 shaping tools and tool-making infrastructures,
 replacing parts with better ones as the need and opportunity arises,
 building scaffolding that is destroyed later
-possibly leaving fossils along the way,
+possibly leaving fossils along the way
 --- all according to a carefully designed master plan.
 
 In other words, @emph{Iterated Creation} is but another name for...
@@ -313,7 +314,7 @@ algebraic data structures and algorithms,
 operating systems, source code, compilers, compiler-compilers, build systems,
 modelling tools, hierarchically layered systems,
 the iterated waterfall process, release cycles,
-and all kind of neat engineering practices.
+and all kinds of neat engineering practices.
 
 Now of course, this logogony can be enhanced with the devil mixin,
 at which point new tools are engineered to counter
@@ -354,7 +355,7 @@ The devil mixin can also be combined with the polytheism mixin.
 Each Man could have his Devil --- failures in his personality traits.
 The Devil could be chaos in way that Men try to work with each other.
 The Devil may be a Man himself --- a malicious programmer.
-Each of these explanations for errors in Man's Designe
+Each of these explanations for errors in Man's Design
 leads to new techniques to address the identified sources of error.
 Better management techniques are developed;
 programmers review each other's code;
@@ -398,7 +399,7 @@ He's a blind idiot who doesn't quite know
 what it is he wants or how to achieve it.
 He not only makes gross mistakes,
 he goes on wild goose chases that lead nowhere,
-and sets impossible goal while ignoring obvious truths.
+and sets impossible goals while ignoring obvious truths.
 
 Tools to help Him design programs will thus include
 helpful messages from his compilers for error diagnostic and recovery.
@@ -420,7 +421,7 @@ and get faster answers as to whether or not his ideas make sense.
 Software interfaces are made idiot-proof
 by making languages more abstract and completing them with
 ample compile-time and run-time checking.
-Work is divided in ``modules'',
+Work is divided into ``modules'',
 so that what limited intelligence there is can be focused in module implementation,
 whereas using modules through their public interfaces requires much less intelligence;
 complexity is thus managed away from stupid users.
@@ -587,7 +588,7 @@ towards a progress that can be felt but not defined.
 Such is the theory of @emph{Teleological Evolution}.
 
 With the transition from intelligent guidance to unintelligent guidance,
-we are lead to the appearance of new tools,
+we are led to the appearance of new tools,
 that roughly correspond to the @emph{Second Wave of Cybernetics}.
 Genetic Algorithms, supervised learning through neural networks,
 probabilistically approximately correct learning methods
@@ -664,10 +665,10 @@ machine-eats-machine world;
 their actions are their attempts to survive and reproduce
 by gaining an edge in the race
 for ever more efficient acquisition and use of reproductive programming resources.
-Their failure mean their code stops being used and is forgotten.
+Their failure means their code stops being used and is forgotten.
 If God exists, then he is not Man; and ever since Man created Software,
 God has just been relaxing, sitting back and enjoying the show.
-Software Evolution is not directly controled by Man and not actively guided by God,
+Software Evolution is not directly controlled by Man and not actively guided by God,
 it is God's Spectator Sport, and Man is a competitor among others.
 Such is the logogony of @emph{Natural Selection}.
 
@@ -735,7 +736,7 @@ But it will only appear soulless if you imagine yourself in the seat
 of that laissez-faire God above the world.
 Face it: you're no god, you're not outside the world and above it.
 There @emph{might} be a God (or Gods),
-who might or might not be intervening in this World---but
+who might or might not be intervening in this world---but
 you have to come to the realization that
 @emph{you} are definitely neither Him nor any of Them.
 You're one of us earthworms, trying to make the best out of what you have
@@ -746,7 +747,7 @@ it is something you are part of, willy nilly.
 You can't just let nature decide,
 you're part of the nature that will decide.
 Whichever genes and memes you carry may or may not survive--—it is largely
-up through your actions that they will succeed or fail.
+up to your actions whether they will succeed or fail.
 You're either in the experimental set
 of changes that may or may not work out well,
 or you're in the control set
@@ -1010,10 +1011,10 @@ and create new ones based on more elaborate logogonies.
 @subsection{Beyond These Logogonies}
 
 Your software activities are unlikely to follow the "perfect" logogony;
-but that doesn't mean that this imperfection introduces
-is what brings the most tragic dysfunction in your life.
-There are many, many stories about Software and about Man,
-that define your current behavior, the Role you Play.
+but that doesn't mean that
+the story bringing the most tragic dysfunction in your life is your logogony.
+There are many stories about Software and about Man,
+that define your current behavior, the roles you play.
 If you work in a team (and you do), stories also define the way
 this team is organized, sets its goals and its means,
 the way each of its members sets their goals and means,
@@ -1037,7 +1038,7 @@ the be-all, end-all of programming paradigms?
 Is there nothing left but incremental refinement of existing concepts and tools?
 Or are there paradigms as radically advanced compared to software darwinism
 as software darwinism is compared its predecessors?
-Can these one identify and adopt this paradigm early on,
+Can one identify and adopt this paradigm early on,
 and thus get an edge over competition?
 
 @section{Stories Future}
@@ -1237,7 +1238,7 @@ that itself increases this pressure.
 Intelligence at writing machine learning software may be
 the most general kind of intelligence computers may have;
 and series of meta-level mutations
-can quickly bootstrapping such intelligence
+can quickly bootstrap such intelligence
 in a positive feedback loop,
 until a phase transition is reached.
 
