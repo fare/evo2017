@@ -1225,44 +1225,41 @@ The purpose of computers is to @emph{automate that which can be automated}.
 This applies to all human activities, including ``intellectual'' activities.
 In particular this applies to software development itself.
 
-@section[#:style (make-style #f '(unnumbered))]{TO BE CONTINUED...}
-@XXX{
-
-The self-application of improved automation techniques
-to the development of further automation techniques
-one hope may be self-catalytic:
+One may hope that applying intelligence automation techniques
+at improving themselves may be self-catalytic:
 cumulative progress in machine intelligence
 leads to ever more progress in machine intelligence;
 bias towards systems that mutate better and faster
 leads to systems with even stronger bias toward mutating better and faster;
 pressure for higher value and lower costs
-leads to automation of production
-that increases pressure for higher value and lower costs.
-In a sense, intelligence at programming computers
-is the most general kind of intelligence computers may have;
-a series of meta-level mutations
+leads to more valuable, cheaper automation
+that itself increases this pressure.
+Intelligence at writing machine learning software may be
+the most general kind of intelligence computers may have;
+and series of meta-level mutations
 can quickly bootstrapping such intelligence
 in a positive feedback loop,
 until a phase transition is reached.
 
-Now, whether we ever reach a ``Singularity'' where mankind is transcended
-or whether the history of mankind continues as usual,
-whether or not we ever create artificially intelligent entities
-that behave as autonomous agents
-or whether computer intelligence remains
-a prop to augment human agents,
-it is not immediately relevant where or how far the road goes;
-that is not for you to decide, only to observe.
-What matters is that this road will be taken,
+It is not immediately relevant
+whether a ``Singularity'' is ever reached whereby mankind is transcended,
+or whether mankind is as elaborate as intelligence gets,
+whether artificially intelligent autonomous agents ever emerge,
+or the only agents ever are humans and machines remain their props.
+First, that is not for any of us to decide, only to observe; maybe partake.
+What matters is that some road will be taken,
 and that those who stay behind will become irrelevant;
-what matters is that if there is an inflexion point
+what matters is that inasmuch as there is an inflexion point
 where we'll reach quickly diminishing returns on investment in machine intelligence,
 this point seems to be well ahead of us;
 what matters is that we are within the part of the curve that accelerates.
 
+@section[#:style (make-style #f '(unnumbered))]{TO BE CONTINUED...}
+@XXX{
+
 @subsection{Quantum Leaps}
 
-Certainly, we can imagine a lot of tools,
+We can imagine a lot of tools,
 that will indeed help with software development:
 For instance, we can work on better languages and ``optimizing'' compilers
 that work better in a world of massively distributed computing,
@@ -1309,7 +1306,6 @@ are currently left unresearched?
 
 These are the kind of questions you should be asking
 if you're interested in making a breakthrough in computer science.
-
 
 @subsection{From Deduction to Induction}
 
