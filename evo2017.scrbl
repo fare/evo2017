@@ -25,13 +25,13 @@
 @abstract{
   The lives we live are woven around the stories we tell.
   This is true of programmers as of all humans.
-  And the greatest of all stories are @emph{origin stories}.
-  I will examine the origin stories of software,
+  Now the greatest of all stories are @emph{origin stories}.
+  In a first part, I will examine the origin stories of software,
   from simple tales of software creation
   to elaborate theories of software evolution.
-  And I will relate these stories to the tools they explain
+  As I do, I will relate these stories to the tools they explain
   and the technological realities we bring about by following them.
-  I will conclude by reflecting on storytelling,
+  In a second part, I will conclude by reflecting on storytelling,
   on the progression of the above stories, and on what lies beyond.
   Stories are fun! And they subtly inform us. Let me tell you a good story...
 }
@@ -62,9 +62,10 @@ with respect to software engineering.
 Now the most powerful patterns about how humans behave are @emph{stories}:
 they explain the behavior of a protagonist in terms of purposes and challenges,
 with causes and consequences for success and failure.
-Human brains are atuned to stories, whether implicit or explicit,
+Human brains are attuned to stories, whether implicit or explicit,
 and humans are wont to cast themselves into roles defined by stories.
-And the most powerful stories are @emph{cosmogonies} and @emph{theodicies}:
+Furthermore, the most powerful stories are
+@emph{cosmogonies} and @emph{theodicies}:
 a @bydef{cosmogony} tells the origin of the existence of the Universe,
 and the role of God (or Gods) in this origin;
 a @bydef{theodicy} is a trial of those Gods,
@@ -89,7 +90,7 @@ which story best explains the origins of which software
 --- it only tries to make each logogony understood,
 as well as its implications.
 Each reader can take it from there.
-And if the presented story arc does promote
+If the presented story arc does promote
 a thesis about the origins of software,
 in the end it is that, as far as the emergence of software goes,
 @emph{Man is no God} --- which should hardly offend anyone.
@@ -154,7 +155,7 @@ his explanation might be as follows:
 then Man said: ``Let Software be such'' --- and so Software was.}
 
 This simplest of stories is @emph{Software Creationism}:
-in casts the programmer as a God Almighty outside and above the machine;
+it casts the programmer as a God Almighty outside and above the machine;
 the software is His creation, His proxy, embodied in the machine.
 
 This belief not only comes naturally to non-programmers
@@ -244,7 +245,7 @@ for logogonies, the @emph{devil mixin}
 
 While naive software creationism can adequately explain small programs,
 the theory quickly reaches its limits:
-large working programs just do not spring all armed from the head of Man.
+large working programs just do not spring fully armed from the head of Man.
 In a more refined logogony,
 Man still has an essentially perfect idea of the Program,
 but imperfections of the Machine require creation
@@ -277,9 +278,9 @@ then start a new layer of work.
 @story{At first, Man wrote a single-file prototype.
 Afterwards, Man worked on an alpha version, then a beta.
 Eventually, Man released v1, v2, v3...
-At last Man produced a stable version...
+At last Man produced a stable version ---
 although, He keeps issuing patch releases.
-@XXX{(Be worried when He stops)}}
+(Be worried when He stops)}
 
 Each version is limited in resources and has to make
 tough choices and compromises that leave behind a layer of code @emph{fossils}
@@ -388,7 +389,7 @@ the issue is that the idea was far from perfect to begin with.
 As far as creator gods go, Programmers are only so bright.
 Men have ``bounded rationality''.
 In plain words, we are plain stupid.
-And so, the next stepping stone on the way
+Thus, the next stepping stone on the way
 towards better logogonies is:
 @hyperlink["http://www.theshrubbery.com/udn/"]{Unintelligent design}.
 
@@ -1138,7 +1139,7 @@ for the Luddites who refuse automation.
 The laws of Economics still apply. Which includes the laws of Evolution.
 Indeed, the ideas behind Evolution were discovered
 by historians as applied to economics,
-long before they were ever applied to biology.
+long before they were ever applied to biology---or software.
 
 @subsection{Sentient Agency}
 
