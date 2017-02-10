@@ -1247,7 +1247,14 @@ whether a ``Singularity'' is ever reached whereby mankind is transcended,
 or whether mankind is as elaborate as intelligence gets,
 whether artificially intelligent autonomous agents ever emerge,
 or the only agents ever are humans and machines remain their props.
-First, that is not for any of us to decide, only to observe; maybe partake.
+That is not for any of us to decide, only to observe; maybe partake.
+Now, any progress we make is quantum,
+made of irreducible bits of information that take us closer to this goal,
+whether by big strides or tiny steps;
+and the amount of progress to reach whatever ``intelligence'' machines can embody
+is finite;
+therefore, if humans keep at it, they'll reach their destination eventually,
+whether in decades, centuries, millenia or stranger aeons.
 What matters is that some road will be taken,
 and that those who stay behind will become irrelevant;
 what matters is that inasmuch as there is an inflexion point
@@ -1255,58 +1262,40 @@ where we'll reach quickly diminishing returns on investment in machine intellige
 this point seems to be well ahead of us;
 what matters is that we are within the part of the curve that accelerates.
 
-@section[#:style (make-style #f '(unnumbered))]{TO BE CONTINUED...}
-@XXX{
-
-@subsection{Quantum Leaps}
-
-We can imagine a lot of tools,
-that will indeed help with software development:
-For instance, we can work on better languages and ``optimizing'' compilers
-that work better in a world of massively distributed computing,
-with major disuniformity in the memory and processing architecture.
-We can find better type systems, grow deeper expert systems,
-improve statistical analysis of data bases,
-and generally throw everything we have at improving software development.
-
-But not all mutations contribute as much to bootstrapping machine intelligence.
-There may be infinitely many innovations
-that could allow to better apply programs to improve real-life
-in as many fields;
-but in any given field, such as the field of general intelligence,
-for all we know, progress is quantum:
-it is made of a finite number of breakthroughs
-accompanied by large series of small improvements.
-There is only so much that can be known, and so much that needs be known.
-
-Most improvements in computer science are not breakthroughs
-and don't remotely involve anything like computer intelligence.
-At best, they improve the complexity of some class of programs we write
-by some constant factor.
-Simplifying such constants matters, at least to a point,
-in that any software complexity leads to a combinatorial explosion
-when automated programs try to synthetize and analyze such software.
-Reduction of the gunk in computing can thus positively affect
-the tractability of ``intelligent'' algorithms.
-Still, these improvements are not computer intelligence per se,
-only the matter that computer intelligence may work on.
-The question thus remains to identify what are the
-@emph{essential} difficulties that have to be tackled
-on the way to more computer intelligence,
-and where are low-hanging fruits on the path to solving
-these specific difficulties.
-
-What tools that can be developed today
-can best help automate programming in the long run?
+Now is a time that you, personally, can have an impact.
+To maximize it, you may ask questions such as:
+What tools can you develop today
+that will best increase automation intelligence in the long run?
 Which generally applicable software methods
 are not currently applied to improving software development itself?
 What kind of architecture makes it easier to combine such methods
 and apply them to the improvement of software development itself?
-What essential aspects of a more intelligent system
+What essential aspects of more intelligent software
 are currently left unresearched?
 
-These are the kind of questions you should be asking
-if you're interested in making a breakthrough in computer science.
+@subsection{As we grope for the future...}
+
+All of us each have to make choices.
+I can see many opportunities:
+in architecting software that combines
+induction (machine learning) and deduction (algorithms);
+in recognizing that interaction with computers is @emph{dialogue not command},
+between unequals that have specific comparative advantages;
+in understanding of how the social organization of programmers
+and the architectural organization of programs are related
+via the feedback and incentive structures they induce.
+
+But in the end, with this and other articles,
+my choice will have been to try to reach out a happy few programmers
+to open their minds to improving how they may think about programming,
+and becoming assumed entrepreneurs of their own software life;
+that they may control the internal evolution of their identity to adapt to the world,
+rather than be the unconscious victims of an external evolution they can't fathom
+--- and creating software ecosystems that @emph{reflect}
+this ability to improve oneself from within.
+
+@XXX{
+@section[#:style (make-style #f '(unnumbered))]{TO BE COMPLETED...}
 
 @subsection{From Deduction to Induction}
 
