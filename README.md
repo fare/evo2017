@@ -17,9 +17,12 @@ by Onward! 2009 and Onward! 2014.
 Viewing the article
 -------------------
 
-I am not yet done cutting down a previous writeup
-to fit the 9000 words limit alloted by SDR, but you can already proofread
-the parts rewritten so far.
+I rewrote and cut down a
+[previous writeup](http://fare.tunes.org/computing/evolutionism.html)
+to fit the 9000 words limit alloted by SDR:
+I added a big disclaimer in the introduction;
+I expanded slightly the theory of evolutionism while shortening the text;
+I substantially rewrote the latter parts, both adding and removing material.
 Here are an HTML and a PDF version of this essay:
 
   * http://fare.tunes.org/files/evolutionism/evo2017.html
