@@ -54,7 +54,7 @@
 If you have to structure software along informal design patterns
 rather than formal abstractions, you have @emph{run out of language}
 (to quote Rich Hickey).
-But if you can't recognize and discuss informal patterns
+But if you cannot recognize and discuss informal patterns
 in the structure of software @emph{development},
 you have not yet entered the realm of language
 with respect to software engineering.
@@ -85,7 +85,7 @@ insulting or vindicating anyone's religious or irreligious beliefs
 regarding cosmogonies.
 Indeed this essay makes no claim regarding the origins of Man
 --- it only discusses the origins of Software!
-This essay doesn't even make any specific claim as to
+This essay does not even make any specific claim as to
 which story best explains the origins of which software
 --- it only tries to make each logogony understood,
 as well as its implications.
@@ -101,7 +101,7 @@ that you should examine the stories you live by,
 be careful which you choose to accept or to reject,
 and constantly refine them. For they will shape you.
 So yes, question my beliefs; and question your own ---
-that's the point, whichever your or my beliefs are.
+that is the point, whichever your or my beliefs are.
 
 @subsection{From Über-God to Underdog, and Beyond}
 
@@ -136,7 +136,7 @@ the evolutionary paradigm for programming.
 What is this evolutionary paradigm?
 The opposite of the creationist paradigm. (Duh!)
 Now, what is...?
-Wait, let's examine paradigms for the appearance of software on earth:
+Wait, let us examine paradigms for the appearance of software on earth:
 start from the initial naive paradigm of software
 @hyperlink["http://www.catb.org/jargon/html/C/creationism.html"]{creationism}
 and watch how it has evolved since.
@@ -147,7 +147,7 @@ and watch how it has evolved since.
 @subsection{The Simplest Logogony}
 
 How does software come into existence?
-Isn't it obvious?
+Is it not obvious?
 If you ask a layman or a newbie,
 his explanation might be as follows:
 
@@ -181,7 +181,7 @@ in binary (or base ten, etc.).
 Programming the machine is best done directly in the machine's language,
 for optimum representation of the God's perfect idea.
 
-Indeed, that's not how software is written these days ---
+Indeed, that is not how software is written these days ---
 which only shows that this naive logogony has long lost its dominance.
 
 @subsection{The Simplest Anthropodicy}
@@ -233,7 +233,7 @@ by coping with its identified imperfections.
 This will continue to be true as we improve
 our logogonies.
 
-Interestingly, anytime we find a new and hopefully better logogony,
+Interestingly, any time we find a new and hopefully better logogony,
 we will always be able consider a variant of it
 where some dark forces conspire to undo or corrupt
 what the creative forces strive to achieve.
@@ -245,7 +245,9 @@ for logogonies, the @emph{devil mixin}
 
 While naive software creationism can adequately explain small programs,
 the theory quickly reaches its limits:
-large working programs just do not spring fully armed from the head of Man.
+large working programs just do not
+@hyperlink["https://en.wikipedia.org/wiki/Athena"
+	]{spring fully armed from the head of Man}.
 In a more refined logogony,
 Man still has an essentially perfect idea of the Program,
 but imperfections of the Machine require creation
@@ -327,7 +329,7 @@ acceptance testing to validate It.
 @subsection{Polytheism}
 
 Another useful mixin for logogonies is @emph{the polytheism mixin}.
-In this story modifier, there isn't one Man,
+In this story modifier, there is not one Man,
 with one Master Intent and consequent actions,
 but a lot of Men (including Women),
 each having Their part in creating the Software,
@@ -379,11 +381,11 @@ Not only are most prototypes no good at all,
 most software projects are cancelled before they are shipped,
 or scratched shortly thereafter --- for good reason.
 A lot of work is wasted without any positive result to show for it.
-It isn't rare that good ideas were discarded in favor of bad ideas.
+It is not rare that good ideas were discarded in favor of bad ideas.
 Even when things work, it is often for the wrong reasons;
 and pieces of code that survive are used in ways they were not intended.
 
-The issue isn't that errors creep in
+The issue is not that errors creep in
 that corrupt the implementation of a perfect idea;
 the issue is that the idea was far from perfect to begin with.
 As far as creator gods go, Programmers are only so bright.
@@ -396,7 +398,7 @@ towards better logogonies is:
 @subsection{Unintelligent Design}
 
 The Programmer-God may have an intent, but
-He's a blind idiot who doesn't quite know
+He is a blind idiot who does not quite know
 what it is he wants or how to achieve it.
 He not only makes gross mistakes,
 he goes on wild goose chases that lead nowhere,
@@ -405,7 +407,7 @@ and sets impossible goals while ignoring obvious truths.
 Tools to help Him design programs will thus include
 helpful messages from his compilers for error diagnostic and recovery.
 Their role is not to tell an intelligent programmer
-``the devil crept in while you weren't looking,
+``the devil crept in while you were not looking,
 just have a look here, you can obviously see him and chase him'',
 it is to tell the unintelligent programmer
 ``what you did was stupid, here is the explanation why'',
@@ -446,7 +448,7 @@ Because the programmer gods cannot be trusted to remember all
 the issues with the software, some software must be used to
 systematically track those bugs and issues.
 When some of the programming Men are malicious,
-you're glad they are idiots, too,
+you are glad they are idiots, too,
 and you bury them under the weight and complexity of security features
 that will catch each of the more obvious malicious types of behavior.
 
@@ -461,9 +463,9 @@ which themselves enable the creation of greater software.
 Greater humility is what makes progress possible.
 
 Also note that the tools tell the story,
-even when we don't make the story explicit.
+even when we do not make the story explicit.
 Why do you use a typechecker? Because you make type errors.
-What if you don't use a typechecker.
+What if you do not use a typechecker.
 You still make type errors and pay the price.
 Whatever stories you tell others to impress them,
 or tell yourself to boost your own ego,
@@ -472,7 +474,7 @@ tell a more honest story about yourself.
 
 But how far does Man have to humiliate Himself
 before a truthful story emerges about the origins of Software?
-If Software isn't the @emph{Triumph of the Will} of Man,
+If Software is not the @emph{Triumph of the Will} of Man,
 then what really is the driving Force behind Software?
 Before we can give answers to these question,
 we have to change our point of view...
@@ -537,7 +539,7 @@ under the careful, intelligent guidance of the Programmer-God.
 God impresses upon the process a definite direction,
 Progress, and otherwise lets software evolve organically in this divine order.
 Judging software being much easier than writing software, it is defensible
-for Man to be good at the former even though he's bad at the latter.
+for Man to be good at the former even though he is bad at the latter.
 This logogony is @emph{Supernatural Selection}.
 
 With this logogony, new tools are selected into prominence.
@@ -593,8 +595,8 @@ we are led to the appearance of new tools,
 that roughly correspond to the @emph{Second Wave of Cybernetics}.
 Genetic Algorithms, supervised learning through neural networks,
 probabilistically approximately correct learning methods
-allow to mine information from large databases
-without any explicitly designed representation of knowledge.
+enable mining information from large databases
+without any explicitly designed knowledge representation.
 Weakly structured computations enable data manipulation
 despite limited understanding.
 At a smaller scale, programmers are satisfied with randomized algorithms
@@ -634,7 +636,7 @@ rather, survival itself is the only criterion for survival,
 tautological and merciless.
 Survival is its own purpose:
 those programs that survive---survive;
-those that don't---don't.
+those that do not---do not.
 Changes that improve the odds
 that their host software should survive and propagate,
 thereby statistically tend to propagate themselves
@@ -648,6 +650,14 @@ and not others.
 How software changes help fit a niche decides whether the changes survive and spread,
 not whether Man explicitly and correctly anticipated and intended those changes
 to be successful in particular ways.
+Some changes are no benefit to the host, yet are not detrimental enough in the short run
+to be worth the cost of getting rid of them;
+they accumulate as "junk DNA" and are passively reproduced,
+until their weight becomes an issue.
+Some changes are detrimental (sometimes lethal) to the hosts that adopt them,
+but though they are eventually weeded out of each host (who may or may not survive),
+these parasitic changes survive by spreading to other hosts while the host lives
+(or sometimes after they die).
 
 The cumulative result of this natural selection is an evolutionary process
 that favors bundles of traits that tend towards their own reproduction.
@@ -659,8 +669,8 @@ Programmers are but machines like others, bundles of self-reproducing traits
 competing to exploit the resources of the universe.
 As compared to other machines in this programming universe,
 certainly programmers are unique and different
---- everyone's all unique and different;
-that doesn't exempt them from the laws of natural selection.
+--- everyone is unique and different;
+that does not exempt them from the laws of natural selection.
 Programmers are machines among others, trying to survive in a wild
 machine-eats-machine world;
 their actions are their attempts to survive and reproduce
@@ -683,13 +693,13 @@ we gain new mental models for development processes.
 We think of software in terms of self-sustaining systems,
 that evolve and compete based on their ability to survive and spread.
 We understand that the hosts and actors of this memetic competition
-are men as well as machines, or even more so.
+are humans as well as machines, or even more so.
 We may then notice that systems are never born big,
 and that the only big systems that work are those
 that were born small and evolved and grew in a way that
 they were kept working at every step @~cite[Systemantics].
 We relate the spread of ideas to the demographics
-generations of humans and machines passing on
+whereby generations of humans and machines pass on
 their forking and mingling traditions---relating memetics to genetics.
 We understand that pieces of hardware, software and wetware
 survive as part of ecosystems,
@@ -720,7 +730,7 @@ and educating new people.
 Software Darwinism provides a big picture
 that puts haughty programmers down from their godly pedestal
 and back into the muddy real world.
-It doesn't offer direct solutions to design problems so much
+It does not offer direct solutions to design problems so much
 as it dispels our illusions about fake solutions
 and unearned authorities.
 No one is a god, above the others,
@@ -735,23 +745,23 @@ Natural Selection may appear to look down on the world
 as a soulless marketplace.
 But it will only appear soulless if you imagine yourself in the seat
 of that laissez-faire God above the world.
-Face it: you're no god, you're not outside the world and above it.
+Face it: you are no god, you are not outside the world and above it.
 There @emph{might} be a God (or Gods),
 who might or might not be intervening in this world---but
 you have to come to the realization that
 @emph{you} are definitely neither Him nor any of Them.
-You're one of us earthworms, trying to make the best out of what you have
+You are one of us earthworms, trying to make the best out of what you have
 (or not trying, and thus probably failing
 and promptly disappearing into irrelevance).
 Evolution is not something for you to enjoy watching from above,
-it is something you are part of, willy nilly.
-You can't just let nature decide,
-you're part of the nature that will decide.
+it is something you are part of, like it or not.
+You cannot just let nature decide,
+you are part of the nature that will decide.
 Whichever genes and memes you carry may or may not survive--—it is largely
 up to your actions whether they will succeed or fail.
-You're either in the experimental set
+You are either in the experimental set
 of changes that may or may not work out well,
-or you're in the control set
+or you are in the control set
 of the obsolete that will surely be replaced.
 Such is the view from @emph{Inside Evolution}.
 
@@ -784,7 +794,7 @@ you must learn to avoid them.
 
 Evolution as an Inside Job restores the soul
 in the marketplace for software: yours.
-You're the entrepreneur of your own life.
+You are the entrepreneur of your own life.
 
 @subsection{Social Evolution}
 
@@ -815,9 +825,9 @@ on development ecosystems.
 For instance, proprietary software has a definite short-term advantage
 over free software
 in capitalization, focus, coherence ---
-and in the ability to use the latter when the latter can't use the former.
+and in the ability to use the latter when the latter cannot use the former.
 But in the long run, proprietary software destroys incentive from anyone
-who doesn't fully trust the software owner;
+who does not fully trust the software owner;
 and that trust can last but until the eventual catastrophe
 inevitable in any centralized management.
 All proprietary software has a suspended death sentence.
@@ -873,16 +883,16 @@ without any of these logogonies being explicitly stated,
 much less used as conscious guides.
 Do these stories have any relevance,
 or are they but nice-sounding post-hoc rationalizations?
-Even if relevant, don't they come too late to help invent those tools?
+Even if relevant, do not they come too late to help invent those tools?
 
 Daniel Dennett wrote: ``There is no such thing as philosophy-free science;
 there is only science whose philosophical baggage
 is taken on board without examination.''
 In software programming as in any other human endeavor,
 not stating your assumptions
-won't save you from the consequences
+will not save you from the consequences
 of following them when they are erroneous---not anymore than
-putting your head in the sand will save you from predators you can't see.
+putting your head in the sand will save you from predators you cannot see.
 The overarching stories you follow---or paradigms, as they are commonly called---
 embody the assumptions you implicitly make, often without a conscious decision;
 they determine the horizon of phenomena you can comprehend.
@@ -902,7 +912,7 @@ You will waste significant human resources
 at unrewarding repetitive tasks at which humans are unreliable
 compared to the cheaper machines that you could have used;
 despite these sacrifices, or rather because of them, you will keep failing,
-until competition people using better paradigms drives you out.
+until competing people using better paradigms drive you out.
 
 @subsection{Stories as Tools}
 
@@ -929,7 +939,7 @@ making stories explicit liberates us.
 
 @subsection{The Proper Role of Stories}
 
-A story may good by itself---if it brings original insight;
+A story may be good by itself---if it brings original insight;
 it may be bad by itself---if it is logically inconsistent;
 but most stories are only good or bad in context---as
 useful or misleading ways to describe a situation.
@@ -937,9 +947,9 @@ useful or misleading ways to describe a situation.
 If your problem is so simple that
 you grok it all and can write down a software solution in one breath,
 by all means, do it!
-Don't follow a 12-step plan to software development
+Do not follow a 12-step plan to software development
 to be rinsed and lathered along 30 iterations.
-If on the other hand you can't fully understand the problem you're tackling,
+If on the other hand you cannot fully understand the problem you are tackling,
 if designing a solution is too hard for structured methods,
 then keep escalating the methods you use until you hopefully solve your problem.
 Generating random programs until a solution is found should be a last resort.
@@ -948,7 +958,7 @@ this resort might be made affordable,
 and find solutions where other methods fail.
 
 Thus, when more elaborate stories are invented,
-older, simpler stories don't die out:
+older, simpler stories do not die out:
 they each find their niche of validity,
 where the cost of improving on them
 is higher that the return on the improvement;
@@ -959,7 +969,7 @@ Modern languages and IDEs indeed make it possible to instantly create
 or systematically engineer programs that would previously have been
 monumental endeavors---if they could have been imagined at all.
 
-The question therefore isn't to find a one-size-fits-all story,
+The question therefore is not to find a one-size-fits-all story,
 but to identify the story that best fits the situation at hand,
 which will make you most effective if you play the games it suggests.
 
@@ -968,7 +978,7 @@ which will make you most effective if you play the games it suggests.
 Programmers could automate away a lot of the issues they face today
 if only they graduated from the paradigm of (Un)Intelligent Design
 to that of Supernatural Selection or better:
-Just giving up on having humans write software directly,
+just giving up on having humans write software directly,
 and instead adopting more declarative and generative programming approaches
 could deal with better results and fewer efforts with
 (de)serialization, persistence, schemas and schema upgrades,
@@ -976,9 +986,9 @@ replication, performance autotuning, representation selection, or
 maintenance coherence between multiple data representations,
 code layers, specifications, documentation and test files,
 etc.
-What more if they adopted the Inside View of Evolution,
+What is more, if they adopted the Inside View of Evolution,
 they would have a healthier approach to negotiating
-what the software should or shouldn't be doing in the first place.
+what the software should or should not be doing in the first place.
 
 As the profession matures, software libraries and programming practices
 will spread that can be anticipated in terms of
@@ -1012,7 +1022,7 @@ and create new ones based on more elaborate logogonies.
 @subsection{Beyond These Logogonies}
 
 Your software activities are unlikely to follow the "perfect" logogony;
-but that doesn't mean that
+but that does not mean that
 the story bringing the most tragic dysfunction in your life is your logogony.
 There are many stories about Software and about Man,
 that define your current behavior, the roles you play.
@@ -1027,15 +1037,15 @@ is for you to discover, examine, and replace.
 Logogonies were just the most spectacular way of illustrating the notion
 of stories and games we play;
 they are by no means the only interesting stories,
-or the stories most relevant to whichever important issue you're dealing with at the moment.
+or the stories most relevant to whichever important issue you are dealing with at the moment.
 So, make the stories of your life explicit,
-identify those you're living, and rewrite them, better!
+identify those you are living, and rewrite them, better!
 
-One the other hand, if progress in how software is developped can be related
+One the other hand, if progress in how software is developed can be related
 to stories about software development, a question naturally arises:
 what are the next logogonies?
 Is the above ``view from Inside Evolution''
-the be-all, end-all of programming paradigms?
+the be-all and end-all of programming paradigms?
 Is there nothing left but incremental refinement of existing concepts and tools?
 Or are there paradigms as radically advanced compared to software darwinism
 as software darwinism is compared its predecessors?
@@ -1053,7 +1063,7 @@ though there may be myriads of minor details to get right,
 the big picture is complete.
 This is @emph{Present Optimism}:
 the ``end of history'' was reached,
-from there it's smooth sailing and/or decline.
+from there it is smooth sailing and/or decline.
 
 Of course, assuming the big picture about software
 will ever contain but finite understandable information,
@@ -1072,7 +1082,7 @@ and all developers were to settle towards a finite set
 of well understood unchanging methods, then
 we could assert with much more confidence
 that indeed we have reached the acme of software development.
-But this hasn't nearly happened yet,
+But this has not nearly happened yet,
 and the case for Present Optimism is rather slim.
 
 @subsection{The Singularity}
@@ -1083,9 +1093,9 @@ computers will somehow surpass men in intelligence
 and take over the menial task of programming:
 they will be genies, who will grant your every software wishes,
 the details of which they can anticipate better than you can specify.
-This is Extreme Future Optimism, or @emph{Singulatarianism}:
+This is Extreme Future Optimism, or @emph{Singularitarianism}:
 the theory that soon(er or later),
-we'll reach a Technological Millenium, or @emph{Singularity},
+we will reach a Technological Millenium, or @emph{Singularity},
 when all our worries are taken away.
 
 However, this Millenarianism is based on a misunderstanding,
@@ -1108,11 +1118,12 @@ Successful tools provide more satisfactions than before while reducing efforts.
 @hyperlink["http://www.econlib.org/library/Bastiat/basHar11.html"
         ]{More for less---progress.}
 The human resources previously expended toward those satisfactions
-are not destroyed but liberated;
-they are made available, to be redirected to new useful endeavours
-that couldn't previously be afforded,
+are not destroyed but @hyperlink["http://www.econlib.org/library/Bastiat/basSoph8.html"]{liberated};
+they are made available,
+to be redirected to new useful endeavours
+that could not previously be afforded,
 together with the increased riches with which to pay them.
-@;(That's the insight behind the badly formulated Say's Law.)
+@;(That is the insight behind the badly formulated Say's Law.)
 @; Better expounded by Bastiat in "Producer and Consumer", Harmonies ch. 11
 Furthermore,
 the @hyperlink["http://www.econlib.org/library/Topics/Details/comparativeadvantage.html"
@@ -1133,7 +1144,7 @@ and serve mankind---it already does
 through all the software development tools previously mentioned.
 And with further progress, programming in today's hip tools
 will become as obsolete as programming in COBOL or Assembly has become:
-a waste effort, and guaranteed ultimate failure,
+a wasted effort, and guaranteed ultimate failure,
 for the Luddites who refuse automation.
 
 The laws of Economics still apply. Which includes the laws of Evolution.
@@ -1163,18 +1174,18 @@ the same spite as racist or nationalist arguments before it.
 Conversely, blind faith in Artificial Intelligence
 is but another millenarian superstition---people dreaming of
 being saved from having to live their own lives.
-This blind faith is a cop out, in that it wishes away
+This blind faith is a cop-out, in that it wishes away
 the very nature of life and its intrinsic challenges.
 Even if ``intelligent'' machines were to replace humans
 in the activity of programming,
-said machines won't be able cop out of having a logogony:
+said machines will not be able cop-out of having a logogony:
 software issues will have to be addressed,
 the buck will have to stop at @emph{someone}.
 And that someone is necessarily a sentient agents,
 whether electronical or biological, equally constrained by the laws of
 @hyperlink["https://mises.org/library/human-action-purposeful-action"
 	]{``Human'' Action}, i.e. purposeful action:
-the competition for scarcity of resources,
+the competition for scarce resources,
 the power of incentives,
 the benefits of cooperation,
 the law of supply and demand,
@@ -1185,15 +1196,15 @@ will apply to them as to they apply to us.
 However brighter or gloomier than today
 a future with artificial intelligences will be,
 bridging the gap between today and that future,
-if possible, won't be achieved by hand-waving.
-It will require a paradigm shift that the cop out
+if possible, will not be achieved by hand-waving.
+It will require a paradigm shift that the cop-out
 precisely aims at blanking out.
 
-The legitimate cop out is not to assume knowledge but to admit ignorance:
-``my previous investigations didn't lead
+The legitimate cop-out is not to assume knowledge but to admit ignorance:
+``my previous investigations did not lead
 to any firm conclusion to this question,
-and I don't have enough combined care for the matter
-and trust in the remaining venues available for investigation
+and I do not have enough combined care for the matter
+and trust in the remaining unexplored venues
 to afford further investigation.''
 @; But are we reduced to this ignorance?
 @; Are there not things we know or can guess about the directions
@@ -1204,14 +1215,14 @@ to afford further investigation.''
 @subsection{Educated Guesses}
 
 The future promises many revolutions in how software will be written:
-between ``artificial intelligence'' and cyber-security arms race,
+between ``artificial intelligence'' and cyber-security arms races,
 mind-defying heuristics and automated formal methods,
 tomorrow's technology is likely to obsolete today's programming practices
 as hopelessly primitive and insecure.
 Can we make more precise predictions?
 @emph{It is difficult to make predictions, especially about the future}
 (Karl Kristian Steincke).
-If you could provide an accurate functional description
+If one could provide an accurate functional description
 of what the future would bring,
 then this future would already be there,
 by the simple execution of this description as a plan.
@@ -1248,7 +1259,7 @@ whether a ``Singularity'' is ever reached whereby mankind is transcended,
 or whether mankind is as elaborate as intelligence gets,
 whether artificially intelligent autonomous agents ever emerge,
 or the only agents ever are humans and machines remain their props.
-That is not for any of us to decide, only to observe; maybe partake.
+That is not for any of us to decide, only to observe; maybe participate.
 Now, any progress we make is quantum,
 made of irreducible bits of information that take us closer to this goal,
 whether by big strides or tiny steps;
@@ -1291,7 +1302,7 @@ my choice will have been to try to reach out a happy few programmers
 to open their minds to improving how they may think about programming,
 and becoming assumed entrepreneurs of their own software life;
 that they may control the internal evolution of their identity to adapt to the world,
-rather than be the unconscious victims of an external evolution they can't fathom
+rather than be the unconscious victims of an external evolution they cannot fathom
 --- and creating software ecosystems that @emph{reflect}
 this ability to improve oneself from within.
 
@@ -1358,7 +1369,7 @@ user interactions as a conversation with an inductive agent.
 
 None of these elements may be novel in isolation;
 but by and large they have remained on the periphery of computer systems;
-they haven't been integrated to the core of computing systems.
+they have not been integrated to the core of computing systems.
 Only highly specialized software uses any single of these techniques,
 in a way that makes a combination expensive and unlikely.
 The challenge is as much in architecting an overall system
@@ -1384,7 +1395,7 @@ though the informational content may dwindle.
 In between the current paradigm of command with feedback
 and a possible future paradigm of pure emotional transmission,
 there is a whole world of meaningful two-way communication
-that isn't explored yet.
+that is not explored yet.
 
 There may soon come a day when we build software
 in a dialogue with computer development systems that maintain
@@ -1401,7 +1412,7 @@ But it will be a dialogue where the machine may produce significant
 conjectures and refutations, trials and errors, filling of ambiguous blanks,
 resulting in non-trivial code
 that has to be persisted together with the ``source'' code or as part of it,
-least the program can't work and development is seriously set back.
+least the program cannot work and development is seriously set back.
 
 Now, our trust in the target software system ultimately resides
 in deductively provable propositions about its behavior,
@@ -1434,19 +1445,19 @@ you have all the reasons not to trust it@note{
    may not seem relevant to the target system,
    whereas the target system may have interrogations
    not elucidated by those interactions.
-   So unless you're very trusting,
+   So unless you are very trusting,
    you probably want to see the recording as a story to be taken with a pinch of salt,
    it being understood that it happened between two other entities,
-   and not as memory that's blended in as if it had happened
+   and not as memory that is blended in as if it had happened
    to the target system itself.
 
    In other words, the best way to transfer knowledge to an inductive system
    is to have it take the same courses as the initial system;
    and while courses based on recordings of interactions with similar learning systems
    may be much better than recordings of courses without student interaction,
-   it still doesn't replace interaction with a tutor,
+   it still does not replace interaction with a tutor,
    though a specialized tutor may remain much more expensive,
-   unless it's itself automated — which is another typical a bootstrap problem.
+   unless it is itself automated — which is another typical a bootstrap problem.
 }.
 Thus, even when we have inductive systems
 that can autonomously develop software,
@@ -1480,9 +1491,9 @@ the John McCarthy quip will apply to them that
 ``Language is froth on the surface of thought''.
 
 As inductive systems grow in complexity, and
-as it becomes harder to trust that an adversary didn't intrude into the system
+as it becomes harder to trust that an adversary did not intrude into the system
 to filter communication or bias the induction,
-even if you trust that the system itself hasn't gone crazy or adversarial,
+even if you trust that the system itself has not gone crazy or adversarial,
 we may eventually need to reason and communicate using
 not just provable deductive algorithms,
 but also verifiably trustworthy bootstrapping paths
@@ -1525,7 +1536,7 @@ its identifying pattern is set at the birth of the project
 and either wins or fails with respect to its contemporary competitors.
 For instance, sexual reproduction is External Evolution as far as
 an individual human's genetic identity is concerned:
-either you pass on your specific genes, or you don't.
+either you pass on your specific genes, or you do not.
 
 Internal Evolution is what happens within a given project.
 The project's working patterns survive or die out,
@@ -1546,10 +1557,10 @@ Internal Evolution of ideas and other memes.
 In short, with External Evolution, you statically pick an identity,
 and you see if you survive or die.
 With Internal Evolution, you dynamically adopt ideas,
-some ideas survive, some don't, but you survive and get stronger either way.
+some ideas survive, some do not, but you survive and get stronger either way.
 You need to beware of course of ideas that will survive at your expense
-— but at least you don't have to stake all of yourself in one bet.
-If you keep those ideas that work and reject those that don't,
+— but at least you do not have to stake all of yourself in one bet.
+If you keep those ideas that work and reject those that do not,
 if you preserve the integrity of those things
 you really identify with
 yet avoid staking as part of
@@ -1566,7 +1577,7 @@ sexual reproduction, nervous systems, language, moral agency, the Internet...
 in each case, the adaptation allowed a new kind of faster change
 to happen amongst lines of adopters,
 and leaving behind those who do not adopt it.
-Once they appeared, if you didn't have @emph{it}, you were out of The Big Game.
+Once they appeared, if you did not have @emph{it}, you were out of The Big Game.
 
 Similarly, in the specific realm of programming,
 higher-order typed programming languages,
@@ -1579,7 +1590,7 @@ and dynamically switches program representation,
 allowing changes that would be non-local
 with a statically fixed source representation;
 or you may need to embrace inductive systems,
-or something else I can't fathom.
+or something else I cannot fathom.
 
 Whatever happens, as evolution keeps accelerating,
 many new adaptations will appear during your own programming career,
@@ -1594,7 +1605,7 @@ To maximize the impact of your work, to remain relevant,
 or simply to stay alive, you'll want to adopt a few best practices
 to deal with the change around you.
 If you do, you'll soon enough find
-that you're moving in the Fast Lane,
+that you are moving in the Fast Lane,
 where change happens.
 
 The general piece of advice from which the rest follows is:
@@ -1604,7 +1615,7 @@ minimize the domain of phenomena for which you stay behind.
 
 Thus, keep your identity lean:
 ruthlessly trim from it
-anything that isn't essential to your own survival.
+anything that is not essential to your own survival.
 If something is merely useful,
 make it part of your internal baggage, not your external identity.
 Past adaptations are good to follow when they are good to follow,
@@ -1624,21 +1635,21 @@ For all the rest, readily admit your incompetence,
 and delegate without mercy:
 find competent people whose decisions you'll follow
 wherever decisions are needed.
-You don't have to find them in advance —
-when you don't know botany (and even when you do),
+You do not have to find them in advance —
+when you do not know botany (and even when you do),
 it is wise to judge a plant by the fruits it bears.
-You also shouldn't fight for them,
+You also should not fight for them,
 and especially not if these people are asking you.
-If they're so weak as to need the help of an incompetent,
-you shouldn't choose them to begin with;
+If they are so weak as to need the help of an incompetent,
+you should not choose them to begin with;
 the only reason why they could actually benefit
 from your sacrifice to their cause
 is if they are parasiting you@note{
-   Of course, that doesn't mean you should never fight.
+   Of course, that does not mean you should never fight.
    You may realize that something is indeed part of your identity,
    and a cause worth risking your life for it.
    Or you may not be offered choice, and have to fight against your will.
-   But don't let anyone draft your identity
+   But do not let anyone draft your identity
    into serving as fodder for losing (or even winning) battles;
    remember that those who force you to fight are your enemies
    (your nearest enemies if not always your worst ones).
@@ -1655,11 +1666,11 @@ of human action, with the power of incentives,
 or human psychology, with each individual's deep values, etc.
 With some understanding, you'll soon find that
 many common alternatives can be proven wrong,
-yet not so obviously wrong that they won't seduce
-those many people who don't dare to think in terms of fundamentals.
+yet not so obviously wrong that they will not seduce
+those many people who do not dare to think in terms of fundamentals.
 There again, keep your identity lean:
-don't overcommit your self to what other people decide,
-and don't hesitate to reject those who betray your trust.
+do not overcommit your self to what other people decide,
+and do not hesitate to reject those who betray your trust.
 In the end, you'll have to make the choice that matter to you,
 depending on all the particulars that only you know about your own life.
 
@@ -1681,10 +1692,10 @@ if it can withstand the high-speed evolution around it,
 but if it can make this evolution even faster.
 
 In any case,
-whether you're pursuing a quest for the ultimate meaning,
-whether you're concerned about the survival of your own memes,
-whether you're in for the big bucks,
-or whether it's the thrill of the action,
+whether you are pursuing a quest for the ultimate meaning,
+whether you are concerned about the survival of your own memes,
+whether you are in for the big bucks,
+or whether it is the thrill of the action,
 one thing is obvious to me:
 once you grok what Evolution is all about,
 you'll want to be where the action is,
@@ -1732,7 +1743,7 @@ to extend Lisp towards the low-hanging fruits of @hyperlink["http://tunes.org/"]
 Meanwhile, I'm working on @hyperlink["http://common-lisp.net/project/xcvb/"]{XCVB}
 to make Lisp evolution less autistic.
 
-I readily admit I don't have quite as much to show as I'd like.
+I readily admit I do not have quite as much to show as I would like.
 
 What are @emph{you} doing? Are you interested in joining forces?
 
