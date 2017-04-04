@@ -58,8 +58,8 @@ This document is available under the bugroff license.
 (define (url x) (a href: x (tt x)))
 (define (comment . x) '())
 
-(define (image name url)
-  (img src: (pic-url name url) alt: name height: "80%"))
+(define (image name url . size)
+  (img src: (pic-url name url) alt: name height: (if (empty? size) "75%" size)))
 
 @slide{
  @h1{Computing, from Creationism to Evolutionism}
@@ -130,10 +130,10 @@ and that's not what you've paid good money to hear, either.
 and what I'm here to tell you is
 }}
 
-@slide[data-background: @pic-url["napoleon.jpg" "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg/1280px-El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg"]
- data-background-size: "100%"
- ]{
+;;@slide[data-background: @pic-url["napoleon.jpg" "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg/1280px-El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg"] data-background-size: "100%"]
+@slide{
  @h1{Logogony and Anthropodicy}
+ @image["napoleon.jpg" "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg/1280px-El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg" "60%"]
  @CB{The word @q{impossible} is not in my dictionary — Napoleon}
  @comment{Don't go a-googling for a dictionary, I made up these words.}
  @comment{Transition:
@@ -159,14 +159,14 @@ As you see, my stories are
 }}
 
 @slide{
- @h1{Not about God (or Gods) and Man (or Men)}
+ @h1{Not about God(s) creating Man}
  @image["aztec_human_sacrifice.jpg" "http://www.freedomfeens.com/blog/wp-content/uploads/2013/09/image3.jpg"]
  @comment{Transition:
 They are about
 }}
 
 @slide{
- @h1{About Man (or Men) and Software}
+ @h1{About Man (Men) creating Software}
  @image["pitr_root_god.gif" "http://www.userfriendly.org/cartoons/archives/98nov/uf000041.gif"] @;; http://ars.userfriendly.org/cartoons/?id=19981111
  @comment{Transition:
 Plus, this is a Computer Science (haha) conference,
@@ -189,27 +189,25 @@ And so without further ado, our first and simplest Logogony...
 
 @slide{
  @h1{Simplest Logogony}
- @image["hello_world.jpg" "https://i.ytimg.com/vi/iyc-DDv0cQY/hqdefault.jpg"]
+ @;@image["hello_world.jpg" "https://i.ytimg.com/vi/iyc-DDv0cQY/hqdefault.jpg"]
+ @C{Software exists because...}
  @comment{
 }
  @comment{Transition:
 What is the simplest logogony you can come up with?
-}}
-
-@slide{
- @h1{Software exists because...}
- @image["smashing_head.gif" "http://www.millsworks.net/blog/wp-content/uploads/2009/04/writing_process.gif"]
- @comment{
-}
- @comment{Transition:
 Come on!
 [Too complex!]
 }}
 
 @slide{
  @h1{Man wrote it!}
- @image["brian_kernighan.jpg" "http://www.the9gag.com/images/pictuers/brian_kernighan_coinventor_of_c_programming_language.jpg"]
+ @;;@image["smashing_head.gif" "http://www.millsworks.net/blog/wp-content/uploads/2009/04/writing_process.gif"]
+ @;;@image["brian_kernighan.jpg" "http://www.the9gag.com/images/pictuers/brian_kernighan_coinventor_of_c_programming_language.jpg"]
  @;; @image["engelbart_keyboard" "http://www.loper-os.org/wp-content/mw/motd_ui.jpg"]
+ @image["Ada_Lovelace.jpg" "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg"]
+ @comment{
+Or woman, anyway.
+}
  @comment{Transition:
 I call this logogony
 }}
@@ -330,7 +328,7 @@ And one way we can always improve on a story is...
 
 @slide{
  @h1{The Devil Mixin}
- @tt{trait WithDevil extends Logogony}
+ @pre{trait WithDevil extends Logogony}
  @comment{
 Spice it up with some opposition.
 Understand better what forces the programmer is facing.
@@ -356,10 +354,10 @@ Now we're ready for our second simplest logogony:
 
 @slide{
  @h1{Layered Creation}
- @L{On day 1, Man separated requirements from bugs.}
- @L{On day 2, Man divided the program into routines.}
- @L{...}
- @L{On day 7, Man rested as the demo ran flawlessly.}
+ @p{On day 1, Man separated requirements from bugs.}
+ @p{On day 2, Man divided the program into routines.}
+ @p{...}
+ @p{On day 7, Man rested as the demo ran flawlessly.}
  @comment{
 In a more refined logogony, Man still has an essentially perfect idea of the Program,
 but imperfections of the Machine require creation in multiple, neatly organized layers:
