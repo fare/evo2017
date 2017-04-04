@@ -1,7 +1,7 @@
 From Software Creationism to Software Evolutionism
 ==================================================
 
-This is my proposal for a presentation at
+This is my contribution to
 [Salon des Refusés 2017](https://refuses.github.io/)
 (a.k.a. SDR2017, with the conference subtitle
 "Dialectics for new computer science").
@@ -28,6 +28,16 @@ Here are an HTML and a PDF version of this essay:
 
   * http://fare.tunes.org/files/evolutionism/evo2017.html
   * http://fare.tunes.org/files/evolutionism/evo2017.pdf
+
+
+Talk
+----
+
+Slides for the talk I gave at SDR 2017 are in
+[refuses2017-slides.html](refuses2017-slides.html).
+Commentary that gives meaning to these slides is in the source code at
+[refuses2017-slides.rkt](refuses2017-slides.rkt).
+A video recording was made and will be published at some time.
 
 
 Notes
