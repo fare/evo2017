@@ -20,7 +20,7 @@
 @; @(linebreak) @smaller{The Programmer's Story: From Über-God to Underdog}
 }
 
-@conferenceinfo["Salon des Refusés 2017" "2017-04-04, Brussels, Belgium"] @copyrightyear{2017} @; SUBMITTING!
+@conferenceinfo["Salon des Refusés 2017" "2017-04-04, Brussels, Belgium"] @copyrightyear{2017} @; ACCEPTED!
 
 @abstract{
   The lives we live are woven around the stories we tell.

@@ -9,7 +9,8 @@ This is my proposal for a presentation at
 I gave previous versions of this talk
 at [ENS in 2005](http://fare.livejournal.com/95576.html),
 at [MSLUG in 2009](https://webmail.iro.umontreal.ca/pipermail/mslug/2009-January/000348.html) and
-at [LispNYC in 2014](https://www.meetup.com/LispNYC/events/171997342/);
+at [LispNYC in 2014](https://www.meetup.com/LispNYC/events/171997342/)
+([video](https://vimeo.com/152109286));
 proposals to give other versions of this talk got rejected
 by Onward! 2009 and Onward! 2014.
 
