@@ -4,16 +4,8 @@ Computing, from Creationism to Evolutionism
 
 Slides for presentation at SDR 2017 in Brussels, 2017-04-04
 
-For development, try:
-  slideshow --comment-on-slide refuses2017-slides.ss
-
-NB: Quit with Alt-Q
-
-On demo day, try:
-  slideshow --preview --comment --monitor 1 refuses2017-slides.ss
-
-Output slides for this document may be found at:
-  http://fare.tunes.org/files/cs/refuses2017-slides.pdf
+To compile it, use:
+  racket refuses2017-slides.rkt > refuses2017-slides.html
 
 This document is available under the bugroff license.
   http://www.oocities.org/soho/cafe/5947/bugroff.html

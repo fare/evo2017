@@ -34,7 +34,7 @@ Talk
 ----
 
 Slides for the talk I gave at SDR 2017 are in
-[refuses2017-slides.html](refuses2017-slides.html).
+[refuses2017-slides.html](https://htmlpreview.github.com/?https://github.com/fare/evo2017/blob/master/refuses2017-slides.html).
 Commentary that gives meaning to these slides is in the source code at
 [refuses2017-slides.rkt](refuses2017-slides.rkt).
 A video recording was made and will be published at some time.
