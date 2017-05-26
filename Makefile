@@ -6,7 +6,7 @@ lib = utils.rkt # bibliography.scrbl
 
 #export PLTCOLLECTS:=$(shell pwd):${PLTCOLLECTS}
 
-all: evo2017.PDF # asdf asdf3-2014.PDF # html # slideshow # PDF
+all: slides # evo2017.PDF # slides
 html: ${ae}.html
 pdf: ${ae}.pdf
 PDF: pdf ${ae}.PDF
@@ -42,3 +42,8 @@ clean:
 
 mrproper:
 	git clean -xfd
+
+refuses2017-slides.html: refuses2017-slides.rkt
+	racket $< > $@
+
+slides: refuses2017-slides.html

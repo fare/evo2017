@@ -1,10 +1,31 @@
 From Software Creationism to Software Evolutionism
 ==================================================
 
+Abstract
+--------
+
+The lives we live are weaved around the stories we tell.
+This is true of programmers as of all humans.
+And the greatest of all stories are *origin stories*.
+I will examine the origin stories of software,
+from simple tales of software creation to elaborate theories of software evolution.
+And I will relate these stories to the tools they explain
+and the technological realities we bring about by following them.
+I will conclude by reflecting on storytelling,
+on the progression of the above stories, and on what lies beyond
+Stories are fun! And they subtly inform us. Let me tell you a good story…
+
+
+Background
+----------
+
 This is my contribution to
 [Salon des Refusés 2017](https://refuses.github.io/)
 (a.k.a. SDR2017, with the conference subtitle
 "Dialectics for new computer science").
+I reused it at the LambdaConf 2017 Unconference,
+and will reuse it at the
+[NYC N-Languages Meetup](https://www.meetup.com/nlanguages/events/238264966/).
 
 I gave previous versions of this talk
 at [ENS in 2005](http://fare.livejournal.com/95576.html),

@@ -134,7 +134,7 @@ A logogony is:
 
 @slide{
  @h1{Logogony: Story of Origins of Software}
- @image["evolution_man_computer.jpg" "http://www.funbodytherapy.com/wp-content/uploads/2015/03/evolution-of-man-to-computer.jpg"]
+ @image["evolution_man_computer.jpg" "http://www.funbodytherapy.com/wp-content/uploads/2015/03/evolution-of-man-to-computer.jpg" "45%"]
  @;; @image["Creation_Machine" "https://cdn.searchenginejournal.com/wp-content/uploads/2015/07/shutterstock_28130593-1.jpg"]
  @comment{Transition:
 and of course an Anthropodicy is:
@@ -159,7 +159,7 @@ They are about
 
 @slide{
  @h1{About Man (Men) creating Software}
- @image["pitr_root_god.gif" "http://www.userfriendly.org/cartoons/archives/98nov/uf000041.gif"] @;; http://ars.userfriendly.org/cartoons/?id=19981111
+ @image["pitr_root_god.gif" "http://www.userfriendly.org/cartoons/archives/98nov/uf000041.gif" "50%"] @;; http://ars.userfriendly.org/cartoons/?id=19981111
  @comment{Transition:
 Plus, this is a Computer Science (haha) conference,
 and I wouldn't want to offend any of you for your deepest beliefs,
@@ -206,7 +206,7 @@ I call this logogony
 
 @slide{
  @h1{Instant Creationism}
- @image["Creation_Machine.jpg" "https://cdn.searchenginejournal.com/wp-content/uploads/2015/07/shutterstock_28130593-1.jpg"]
+ @image["Creation_Machine.jpg" "https://cdn.searchenginejournal.com/wp-content/uploads/2015/07/shutterstock_28130593-1.jpg" "65%"]
  @;;@image["instant_noodles" https://notallowedto.com/wp-content/uploads/2015/06/instant-noodles.jpg"]
  @comment{
 Fiat Lux, et Lux Fit.
@@ -257,7 +257,7 @@ One that verily gives its common name to the notion?
 
 @slide{
  @h1{Bugs!}
- @image["first_bug.jpg" "http://rur-ple.sourceforge.net/images/first_bug.jpg"]
+ @image["first_bug.jpg" "http://rur-ple.sourceforge.net/images/first_bug.jpg" "55%"]
  @comment{
 Yes, BUGS!
 In other words, MONSTERS.
@@ -286,7 +286,7 @@ And to fight the Devil you have...
 
 @slide{
  @h1{Real Tools!}
- @image["Punchcard.jpg" "https://homepage.divms.uiowa.edu/~jones/cards/collection/chicago.jpg"]
+ @image["Punchcard.jpg" "https://homepage.divms.uiowa.edu/~jones/cards/collection/chicago.jpg" "40%"]
  @comment{
 Punchcards, Blinkenlights and Parity bits.
 Adhesive tape to fix the punchcards.
@@ -527,7 +527,7 @@ Of course you can combine the polytheism mixin with the devil mixin
  @;; http://www.chiark.greenend.org.uk/~douglasr/ftp/titanomachy/v0.1/titanomachy-rules.html
  @;; http://magickalgraphics.com/Graphics/Occult/Gods/god18.jpg
  @;; https://www.linkedin.com/pulse/20140526231345-105475546-sneakers-a-1992-movie-made-for-today
- @image["sneakers.jpg" "https://media.licdn.com/mpr/mpr/p/1/005/063/2b2/3b25602.jpg"] @; https://www.linkedin.com/pulse/20140526231345-105475546-sneakers-a-1992-movie-made-for-today
+ @image["sneakers.jpg" "https://media.licdn.com/mpr/mpr/p/1/005/063/2b2/3b25602.jpg" "55%"] @; https://www.linkedin.com/pulse/20140526231345-105475546-sneakers-a-1992-movie-made-for-today
  @comment{
 Clash of olympians and titans, of norse gods and giants.
 Remind us that religious wars are not just between Emacs and VI
@@ -686,7 +686,7 @@ you enter the realm of
 
 @slide{
  @h1{Evolutionism}
- @image["evolution.png" "https://i.kinja-img.com/gawker-media/image/upload/s--B_M7EaKb--/c_scale,f_auto,fl_progressive,q_80,w_800/18lu0b9r5g4j0png.png"]
+ @image["evolution.png" "https://i.kinja-img.com/gawker-media/image/upload/s--B_M7EaKb--/c_scale,f_auto,fl_progressive,q_80,w_800/18lu0b9r5g4j0png.png" "60%"]
  @comment{
 Evolutionism
 Obviously, as Men write changes,
@@ -896,7 +896,7 @@ But mostly, darwinism brings us
 
 @slide{
  @h1{Darwinistic Meta-Tools}
- @image["Understanding.jpg" "http://www.afraidtoask.com/media/understand2.jpg"]
+ @image["Understanding.jpg" "http://www.afraidtoask.com/media/understand2.jpg" "60%"]
  @comment{
 Meta-Tools. Understanding of the world. Wisdom.
 
@@ -929,7 +929,7 @@ You may have noticed that all these conclusions are rather negative and depressi
 
 @slide{
  @h1{No Silver Bullet}
- @image["no_silver_bullet.png" "http://ag.alltech.com/sites/default/files/styles/flexslider_full/public/antibiotic-free-challenges.png?itok=3eyjJzZO"]
+ @image["no_silver_bullet.png" "http://ag.alltech.com/sites/default/files/styles/flexslider_full/public/antibiotic-free-challenges.png?itok=3eyjJzZO" "65%"]
  @comment{
 Darwinism reminds us that there is no silver bullet.
 No magic way to win after win we can enjoy life and be lazy.
