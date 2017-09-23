@@ -1,6 +1,10 @@
-*.css
-*.js
-*.html
 *.pdf
 *.dvi
 *~
+autobib.css
+footnote.css
+scribble.css
+scribble-style.css
+sigplan.css
+scribble-common.js
+evo2017.html
