@@ -54,7 +54,8 @@ Here are an HTML and a PDF version of this essay:
 Talk
 ----
 
-Here is the [video of the talk at SDR 2017](https://youtu.be/wpkHSi_gXSM).
+Here is the [video of the talk at SDR 2017](https://youtu.be/wpkHSi_gXSM) and
+a [video of the slightly longer talk at λC2017](https://youtu.be/sTTg3XgJAJg).
 The slides are in
 [refuses2017-slides.html](https://htmlpreview.github.com/?https://github.com/fare/evo2017/blob/master/refuses2017-slides.html).
 Commentary that gives meaning to these slides is in the source code at
