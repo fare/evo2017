@@ -40,7 +40,8 @@ This document is available under the bugroff license.
     file))
 
 (define (reveal-url . text)
-  ;; (cons "http://cdn.jsdelivr.net/reveal.js/3.0.0/" text)
+  #; (cons "http://cdn.jsdelivr.net/reveal.js/3.0.0/" text)
+  #; (cons "/home/fare/src/fare/reveal.js-master/" text)
   (cons "resources/reveal/" text))
 
 (define (L . x) (div align: 'left))
@@ -51,7 +52,7 @@ This document is available under the bugroff license.
 (define (comment . x) '())
 
 (define (image name url . size)
-  (img src: (pic-url name url) alt: name height: (if (empty? size) "75%" size)))
+  (img src: (pic-url name url) alt: name class: "r-stretch"))
 
 @slide{
  @h1{Computing, from Creationism to Evolutionism}
@@ -125,7 +126,7 @@ and what I'm here to tell you is
 ;;@slide[data-background: @pic-url["napoleon.jpg" "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg/1280px-El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg"] data-background-size: "100%"]
 @slide{
  @h1{Logogony and Anthropodicy}
- @image["napoleon.jpg" "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg/1280px-El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg" "60%"]
+ @image["napoleon.jpg" "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg/1280px-El_tres_de_mayo_de_1808_en_Madrid_(2008).jpg"]
  @CB{The word @q{impossible} is not in my dictionary — Napoleon}
  @comment{Don't go a-googling for a dictionary, I made up these words.}
  @comment{Transition:
@@ -1031,17 +1032,13 @@ Any questions?
  @html{
    @head{
      @link[rel: 'stylesheet href: "resources/my.css"]
-     @link[rel: 'stylesheet href: @reveal-url{css/reveal.css}]
-     @link[rel: 'stylesheet href: @reveal-url{css/theme/black.css}]
-     @link[rel: 'stylesheet href: @reveal-url{lib/css/zenburn.css}]
+     @link[rel: 'stylesheet href: @reveal-url{reveal.css}]
+     @link[rel: 'stylesheet href: @reveal-url{theme/black.css}]
      @link[rel: 'stylesheet href: "resources/my.css"]
    }
    @body{
      @div[class: 'reveal]{@div[class: 'slides]{@get-slides}}
-     @script[src: @reveal-url{lib/js/head.min.js}]
-     @script[src: @reveal-url{js/reveal.min.js}]
+     @script[src: @reveal-url{reveal.js}]
      @script/inline{
-       Reveal.initialize({dependencies: [
-         {src: "@reveal-url{plugin/highlight/highlight.js}",
-          async: true, callback: () => hljs.initHighlightingOnLoad()}]});
+       Reveal.initialize();
      }}})

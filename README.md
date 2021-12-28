@@ -57,7 +57,7 @@ Talk
 Here is the [video of the talk at SDR 2017](https://youtu.be/wpkHSi_gXSM) and
 a [video of the slightly longer talk at λC2017](https://youtu.be/sTTg3XgJAJg).
 The slides are in
-[refuses2017-slides.html](https://htmlpreview.github.com/?https://github.com/fare/evo2017/blob/master/refuses2017-slides.html).
+[refuses2017-slides.html](https://htmlpreview.github.io/?https://github.com/fare/evo2017/blob/master/refuses2017-slides.html).
 Commentary that gives meaning to these slides is in the source code at
 [refuses2017-slides.rkt](refuses2017-slides.rkt).
 
